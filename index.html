@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="vi">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research SEO data, assess the current performance, and prepare a detailed report to help clients clearly understand the effectiveness of the SEO strategy.">
+    <meta name="keywords" content="Google Maps SEO, Local SEO, Google Business Profile Optimization, Map Ranking, Local Business Marketing, TD Transactions">
+    <meta name="author" content="TD Transactions LLC">
+    <meta property="og:title" content="TD Transactions –Lookup Google Maps SEO ">
+    <meta property="og:description" content="Research SEO data, assess the current performance, and prepare a detailed report to help clients clearly understand the effectiveness of the SEO strategy.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tdtransactions.com">
+    <meta property="og:image" content="https://tdtransactionsllc.com/wp-content/uploads/2026/01/PC-SYSTEM-4.png">
+    <title>
+      TD TRANSACTIONS - SEO GOOGLE MAP
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <style>
+      body { font-family: 'Plus Jakarta Sans', sans-serif; background: linear-gradient(135deg,
+      #0f172a 0%, #1e1b4b 50%, #312e81 100%); min-height: 100vh; color: white;
+      } .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255,
+      0.1); } .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter:
+      blur(8px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all
+      0.3s cubic-bezier(0.4, 0, 0.2, 1); } .glass-card:hover { background: rgba(255,
+      255, 255, 0.07); transform: translateY(-4px); box-shadow: 0 20px 25px -5px
+      rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.2); } .modal-backdrop
+      { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(8px); } .hidden
+      { display:block; } @keyframes fadeIn { from { opacity: 0; } to { opacity:
+      1; } } @keyframes slideUp { from { transform: translateY(20px); opacity:
+      0; } to { transform: translateY(0); opacity: 1; } } .animate-fade-in {
+      animation: fadeIn 0.3s ease-out; } .animate-slide-up { animation: slideUp
+      0.4s ease-out; }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/genai": "https://esm.sh/@google/genai@^1.36.0",
+          "react": "https://esm.sh/react@^19.2.3",
+          "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+          "react/": "https://esm.sh/react@^19.2.3/"
+        }
+      }
+    </script>
+  </head>
+  
+  <body class="overflow-x-hidden">
+    <div class="min-h-screen px-4 py-12 md:px-8 lg:px-16 max-w-7xl mx-auto">
+      <!-- Header -->
+      <header class="text-center mb-16 relative">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-indigo-500/20 blur-[120px] rounded-full -z-10">
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-white via-indigo-200 to-indigo-500 bg-clip-text text-transparent">
+          TD TRANSACTIONS
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
+          Hệ thống tra cứu dữ liệu SEO GOOGLE MAP
+        </p>
+      </header>
+      <!-- Search Section -->
+      <div class="max-w-3xl mx-auto mb-16 space-y-4">
+        <div class="relative group">
+          <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-25 group-focus-within:opacity-50 transition duration-1000">
+          </div>
+          <div class="relative flex items-center bg-slate-900/50 backdrop-blur-xl border border-white/10 rounded-2xl p-1 shadow-2xl">
+            <div class="pl-5 text-slate-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </div>
+            <input id="searchInput" type="text" placeholder="Nhập số phone để tìm tiệm hoặc tên sale..."
+            class="w-full bg-transparent border-none focus:ring-0 text-white placeholder-slate-500 py-4 px-4 text-lg outline-none"
+            />
+            <button id="aiGlobalBtn" class="hidden md:flex items-center w-[140px] h-16 gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 px-6 rounded-xl transition-all shadow-lg mr-1">
+              Tìm Kiếm
+            </button>
+          </div>
+        </div>
+        <p class="text-center text-xs text-slate-500">
+          Nhập số điện thoại để tìm đích danh tiệm, hoặc tên sale để xem danh sách.
+        </p>
+      </div>
+      <!-- AI Global Insight Container -->
+      <div id="aiInsightContainer" class="max-w-3xl mx-auto mb-12 hidden animate-fade-in">
+        <div class="glass rounded-2xl p-6 border-l-4 border-l-indigo-500 shadow-xl">
+          <div class="flex justify-between items-center mb-4">
+            <h2 class="text-lg font-bold flex items-center gap-2 text-indigo-300">
+              Trợ lý AI Smart Insights
+            </h2>
+            <button id="closeAiInsight" class="text-slate-500 hover:text-white">
+              &times;
+            </button>
+          </div>
+          <div id="aiInsightText" class="text-slate-300 text-sm leading-relaxed">
+          </div>
+        </div>
+      </div>
+      <!-- Main Content Area -->
+      <div id="resultsTitle" class="mb-10 hidden items-center justify-between">
+        <h2 class="text-2xl font-semibold text-white">
+          Kết quả tìm kiếm
+        </h2>
+      </div>
+      <div id="storeGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      </div>
+      <!-- Welcome Placeholder -->
+      <div id="welcomePlaceholder" class="text-center py-32 opacity-50">
+        <div class="inline-block p-6 rounded-3xl bg-indigo-500/5 border border-indigo-500/10 mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-indigo-400/50 mx-auto"
+          fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-300 mb-2">
+          Sẵn sàng tra cứu
+        </h2>
+        <p class="text-slate-500 max-w-md mx-auto">
+          Nhập thông tin vào ô tìm kiếm để bắt đầu.
+        </p>
+      </div>
+      <!-- Empty Placeholder -->
+      <div id="emptyPlaceholder" class="text-center py-24 glass rounded-3xl border-dashed border-2 border-white/10 hidden">
+        <h3 class="text-2xl font-bold text-slate-400">
+          Không tìm thấy tiệm nào
+        </h3>
+      </div>
+    </div>
+    <!-- DETAIL MODAL -->
+    <div id="detailModal" class="fixed inset-0 z-[60] hidden items-center justify-center p-4 modal-backdrop animate-fade-in">
+      <div class="relative w-full max-w-2xl glass rounded-3xl shadow-2xl overflow-hidden animate-slide-up">
+        <div class="p-6 border-b border-white/10 flex justify-between items-center bg-white/5">
+          <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+            <span class="w-2 h-8 bg-indigo-500 rounded-full">
+            </span>
+            Chi Tiết Tiệm
+          </h2>
+          <button id="closeModal" class="p-2 hover:bg-white/10 rounded-full text-slate-400 hover:text-white transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="p-8 space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="modalContent">
+          </div>
+          <div class="pt-6 border-t border-white/10">
+            <div class="flex items-center justify-between mb-4">
+              <!-- <h3 class="text-lg font-bold text-indigo-300 flex items-center gap-2">Phân Tích Thông Minh</h3> -->
+              <!-- <button id="runAiDetailBtn" class="text-xs bg-indigo-500/10 hover:bg-indigo-500/20
+              text-indigo-400 border border-indigo-500/30 px-3 py-1.5 rounded-lg transition-all">
+              Bắt đầu phân tích
+              </button> -->
+            </div>
+            <!-- <div id="aiDetailBox" class="min-h-[100px] bg-slate-900/50 rounded-2xl
+            p-4 border border-white/5 relative flex items-center justify-center">
+            <p id="aiDetailText" class="text-slate-600 text-center text-sm italic">Bấm nút để AI đưa ra nhận định.</p>
+            </div> -->
+          </div>
+        </div>
+        <div class="p-6 bg-white/5 flex gap-4">
+          <button id="downloadPdfBtn" class="flex-1 flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded-xl transition-all">
+            Tải Báo Cáo PDF
+          </button>
+          <button id="closeModalBtn" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-xl transition-all">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- GLOBAL LOADING -->
+    <div id="globalLoading" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-[100] hidden flex flex-col items-center justify-center">
+      <div class="relative w-20 h-20 mb-6">
+        <div class="absolute inset-0 border-4 border-indigo-500/20 rounded-full">
+        </div>
+        <div class="absolute inset-0 border-4 border-t-indigo-500 rounded-full animate-spin">
+        </div>
+      </div>
+      <p class="text-indigo-300 font-medium animate-pulse">
+        AI đang xử lý dữ liệu...
+      </p>
+    </div>
+    <script type="module" src="index.js">
+    </script>
+  </body>
+
+</html>
