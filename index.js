@@ -407,6 +407,19 @@ Tuy nhiên, tiệm cần cải thiện để phát triển mạnh hơn. Thứ h�
     notes: "Chưa có Google nên chưa đánh giá được.",
     link:"",
     update:"12/31/2025"
+  },{
+    id: 30,
+    salon_name: "Vip Nails Baytown",
+    customer_name: "Johnny Nguyen",
+    address: "508 Garth Rd F, Baytown, TX 77521, United States",
+    phone: "+18329082050",
+    sale_person: "John Thai",
+    assigned_to: "hằng - Hiển",
+    marketing_person: "Hang - Hien",
+    category: "Nail Salon",
+    notes: "Chưa có Google nên chưa đánh giá được.",
+    link:"",
+    update:"12/31/2025"
   }
 ];
 
