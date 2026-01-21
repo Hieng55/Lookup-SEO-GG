@@ -407,7 +407,8 @@ Tuy nhiên, tiệm cần cải thiện để phát triển mạnh hơn. Thứ h�
     notes: "Chưa có Google nên chưa đánh giá được.",
     link:"",
     update:"12/31/2025"
-  },{
+  },
+  {
     id: 30,
     salon_name: "Vip Nails Baytown",
     customer_name: "Johnny Nguyen",
@@ -416,6 +417,33 @@ Tuy nhiên, tiệm cần cải thiện để phát triển mạnh hơn. Thứ h�
     sale_person: "John Thai",
     assigned_to: "hằng - Hiển",
     marketing_person: "Hang - Hien",
+    category: "Nail Salon",
+    notes: "Chưa có Google nên chưa đánh giá được.",
+    link:"",
+    update:"12/31/2025"
+  },{
+    id: 31,
+    salon_name: "V & B Nails Prescott",
+    customer_name: "Ms Wendy",
+    address: "1260 Gail Gardner Way # 123, Prescott, AZ 86305",
+    phone: "+17144959214",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hien",
+    category: "Nail Salon",
+    notes: "Chưa có Google nên chưa đánh giá được.",
+    link:"",
+    update:"12/31/2025"
+  },
+  {
+    id: 32,
+    salon_name: "IRIS NAILS FACIAL LLC",
+    customer_name: "ANH THI DUYEN NGUYEN ",
+    address: "3435 RAINTREE VILLAGE DR, KATY, TX 77449-7026",
+    phone: "+18322874690",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hien",
     category: "Nail Salon",
     notes: "Chưa có Google nên chưa đánh giá được.",
     link:"",
