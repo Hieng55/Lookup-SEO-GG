@@ -12,10 +12,9 @@ const MOCK_STORES = [
     sale_person: "Thuy Duyen",
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
-    notes: "thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
-    
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=14vC7V6jA-8zo4NOSQyXteRj2Xbswg3Lq&export=download",
+    update:"03/07/2026"
   },
   {
     id: 2,
@@ -26,9 +25,9 @@ const MOCK_STORES = [
     sale_person: "Thuy Duyen",
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
-    notes: "thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1oQngHhcZC60UdjsbHG1Nlhv6F0n9Ouv7&export=download",
+    update:"03/07/2026"
   },
   {
     id: 3,
@@ -40,9 +39,9 @@ const MOCK_STORES = [
     assigned_to: "Hang - Hien",
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
-    notes: "thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1BAAJ8z6Aqx1ZZ5MoQaBlDkVjhig787mf&export=download",
+    update:"03/07/2026"
   },
   {
     id: 4,
@@ -54,9 +53,9 @@ const MOCK_STORES = [
     assigned_to: "Hang - Hien",
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
-    notes: "thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1e0k9z4wV2DwuXrGGoLFiBBcIQWA552iX&export=download",
+    update:"03/07/2026"
   },
   {
     id: 5,
@@ -67,13 +66,13 @@ const MOCK_STORES = [
     sale_person: "Thuy Duyen",
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
-    notes: "thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=10gbl10lycPVUu4wompiScj2rJ97Wv00D&export=download",
+    update:"03/07/2026"
   },
   {
     id: 6,
-    salon_name: "Princess Nails & Head Spa",
+    salon_name: "Blue J Nails & Head Spa",
     legal_name: "Blue J Nails & Head Spa",
     customer_name: "Thuy Nguyen",
     address: "1475 Bedford Hwy #2A, Bedford, NS B4A 3Z5, Canada",
@@ -82,9 +81,9 @@ const MOCK_STORES = [
     assigned_to: "Tuan - Hien",
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
-    notes: "thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1iUWmnmakHykOge0OjUnHk7ABCBZcE70g&export=download",
+    update:"03/07/2026"
   },
   {
     id: 7,
@@ -96,9 +95,9 @@ const MOCK_STORES = [
     assigned_to: "Tuan - Hien",
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
-    notes: "khách tạo google mới nên chưa có đánh giá chưa có cơ sở rank làm report",
+    notes: "mới tạo google nên không xuất report",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
   {
     id: 8,
@@ -110,9 +109,9 @@ const MOCK_STORES = [
     assigned_to: "Hang - Hien",
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
-    notes: "thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=18nhYKVnwtbHzcgQ_QCqBixLWF2Wb0f-w&export=download",
+    update:"03/07/2026"
   },
   {
     id: 9,
@@ -124,9 +123,9 @@ const MOCK_STORES = [
     assigned_to: "Hang - Hien",
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
-    notes: "nhắc khách xin thêm review tháng này không có review nào hết nguy cơ rank không tăng",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1KjAQ9efKhvN6vakj5PHTVoOnY-7iRqv3&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1rwk3i8xNW_DnBfVoxcBOHQXpNQV-o9Y5&export=download",
+    update:"03/07/2026"
   },
   {
     id: 10,
@@ -137,9 +136,9 @@ const MOCK_STORES = [
     sale_person: "Thuy Duyen",
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
-    notes: "mọi thứ ổn nhắc khách xin thêm review cải thiện rating và thứ hạng",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=16ZV5pLxbBEZFoewc2FWYLLRw6JsUyzWt&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1L8hNo_OMwtUJOLndTHI2ZXbgf9_wFfMk&export=download",
+    update:"03/07/2026"
   },
   {
     id: 11,
@@ -151,9 +150,9 @@ const MOCK_STORES = [
     assigned_to: "Tuan - Hien",
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
-    notes: "khách xin thêm review để duy trì và tăng thứ hạng tháng này không có review, top cao cạnh tranh cao cần thêm review mới",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1TtYPGeuxrW-DeZtI1dW1svJg8Ysrqoro&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1kfN8zHPpvDn8wB-RXR4Rq5KsrZ4EClGW&export=download",
+    update:"03/07/2026"
   },
   {
     id: 12,
@@ -164,9 +163,9 @@ const MOCK_STORES = [
     sale_person: "My Duyen",
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
-    notes: "khách xin thêm review để duy trì và tăng thứ hạng tháng này không có review, top cao cạnh tranh cao cần thêm review mới",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1V9W3bnsT71XMmltuFsBInX6v6WaH-4_U&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1nXVEA9neccHeu4euBiUGn3Q1u5oZ5Qoq&export=download",
+    update:"03/07/2026"
   },
   {
     id: 13,
@@ -178,9 +177,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Hang",
     marketing_person: "Hien - Hang",
     category: "Nail Salon",
-    notes: "Nhắc khách xin thêm review",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1hqk7YxtPPgmbMFlGkXUcxQmBau1RxFvj&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1rdMv8E6bAqqUHU_aIQIBa0IbC8y1Oabh&export=download",
+    update:"03/07/2026"
   },
   {
     id: 14,
@@ -192,9 +191,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Tuan",
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
-    notes: "nhắc khách xin thêm review tháng này không có review nào hết nguy cơ tháng sau rank không tăng",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1O_E_JwU5m8z2Zr28G7NmIjTRzq2K_Fhh&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1Smtm2kHP04ghqspEZLUAL0pk52jI2f1B&export=download",
+    update:"03/07/2026"
   },
   {
     id: 15,
@@ -206,9 +205,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Hang",
     marketing_person: "Hien - Hang",
     category: "Nail Salon",
-    notes: "tháng này xin review khá tốt , duy trì để có thứ hạng rank tốt hơn",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1NYnBB0C1WoYMZ2sG_97HSVzVri52Yv4l&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1LbbXT6eSuemHr37oPllrguSpJq1QMbPw&export=download",
+    update:"03/07/2026"
   },
   {
     id: 16,
@@ -220,9 +219,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Tuan",
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
-    notes: "thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
   {
     id: 17,
@@ -234,9 +233,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Hung",
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
-    notes: "xin khách xin review thêm tháng này không có review nguy cơ tháng sau rank ko tăng nếu không có review mới",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1LuUhITkWCug2daDM3H1VI1S2oui-aex9&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1ySHEs1s0xznCooPMelm98i1EP8w51JjR&export=download",
+    update:"03/07/2026"
   },
   {
     id: 18,
@@ -248,9 +247,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Hung",
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
-    notes: "khách vào top đúng như cam kết, nhưng duy trì thứ hạng này lâu cần khách xin thêm review ",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1cLgFn3BGSw8YqlKlszZwxLY3C4TQ7zqC&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1lKoYMC3h9YnFnBH8qG8NcpHBYadg6SwK&export=download",
+    update:"03/07/2026"
   },
   {
     id: 19,
@@ -262,9 +261,9 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "Hien",
     category: "Nail Salon",
-    notes: "duy trì top 5 cho khách nhưng nhờ khách xin thêm review để duy trì thứ hạng",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=19c4JGTn-a2sFuAjCYIPhc2M-RnHqXvAD&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1EdU6pOxxyru4eO8k91ustHdvz6xAHY-G&export=download",
+    update:"03/07/2026"
   },
   {
     id: 20,
@@ -276,9 +275,9 @@ const MOCK_STORES = [
     assigned_to: "Hang - Hien",
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
-    notes: "Nhắc khách xin thêm review ",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=10HAEJyQ-fR1yKsR_vJkMP3BbvGAp-hYe&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1b7Dpp4VuvKnZwmuNtpiLg3K_8eU8zt6-&export=download",
+    update:"03/07/2026"
   },
   {
     id: 21,
@@ -290,9 +289,9 @@ const MOCK_STORES = [
     assigned_to: "Hang - Hien",
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
-    notes: "ổn xin thêm review để duy trì rank",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1KWIr6SZrYU81eR4g_Y6ZvhSIvH-NPCl4&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1fD5D6dQo4ku3DGrmsuhcWG1NE340YU_f&export=download",
+    update:"03/07/2026"
   },
   {
     id: 22,
@@ -304,9 +303,9 @@ const MOCK_STORES = [
     assigned_to: "Hang - Hien",
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
-    notes: "mọi thứ ổn đã đạt đúng kpi xin thêm review để lấy rank 1 và 2",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1EbyXyfystzONTjVI4TZhIUsA7vBN4vLM&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1UeiLhjoSv_AOL1-XUkx5PPhC2iq3rPjv&export=download",
+    update:"03/07/2026"
   },
   {
     id: 23,
@@ -318,9 +317,9 @@ const MOCK_STORES = [
     assigned_to: "Tuan - Hien",
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
-    notes: "tiệm chưa mở cửa nên không có đánh giá",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=129MgzoeFLMl2mabIYF0Ko60xDhjOCzcv&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"",
+    update:"03/07/2026"
   },
   {
     id: 24,
@@ -332,9 +331,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Tuan",
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
-    notes: "nhắc khách cố gắng xin thêm review tháng này quá ít review",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1ulp-f0UiYOPN9dPQJp16X9AJ6PPPgsRr&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=18RVGkhcovCY2adAovegaUVhZjQLsFRxD&export=download",
+    update:"03/07/2026"
   },
   {
     id: 25,
@@ -346,9 +345,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Hung",
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
-    notes: "Tiệm ở khu cạnh tranh cao nhưng không có review mới tiệm bị đứng rank nhắc khách xin thêm review",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1-DQlnH_JmfFTHxnbpq60awReVOVV-TUT&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1rnm-vL7prLfPWbvG8c_yGqg75hc7pFoc&export=download",
+    update:"03/07/2026"
   },
   {
     id: 26,
@@ -360,9 +359,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Tuan",
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
-    notes: "không có review mới nhờ khách xin thêm nguy cơ tháng sau rank bị đứng",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1X7ueIhiV02JXgoIH_Yz2XQMQhgBfc9yh&export=download",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1X0lVzTW-7YQIG6wqRCc4XilAK3xM5eQj&export=download",
+    update:"03/07/2026"
   },
   {
     id: 27,
@@ -374,9 +373,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Tuan",
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
-    notes: `Tập trung xin thêm review là đã đạt kpi rank như cam kết`,
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1qjsBI84WD7ET64EzvdY7lSt5bdHo7nAU&export=download",
-    update:"02/07/2026"
+    notes: ``,
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1LqtCeajvrT8CmxjfauJcG-AUdvyU7KZj&export=download",
+    update:"03/07/2026"
   },
   {
     id: 28,
@@ -388,9 +387,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Hung",
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
-    notes: `Tập trung xin thêm review sắp đạt được kpi như cam kết`,
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1grG8N8J8VdOJrD6TogjvathWd8p5JL2U&export=download",
-    update:"02/07/2026"
+    notes: ``,
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1gq7XfId18X3VNWC0ZDLgax57Behxs3bY&export=download",
+    update:"03/07/2026"
   },
   {
     id: 29,
@@ -402,9 +401,9 @@ const MOCK_STORES = [
     assigned_to: "Hien - Hung",
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
   {
     id: 30,
@@ -416,9 +415,9 @@ const MOCK_STORES = [
     assigned_to: "hằng - Hiển",
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
   {
     id: 31,
@@ -430,9 +429,9 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "Hien",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1Zq-0MwWq3SerGgUgC-wXEvGGAO15ZS5W&export=download",
+    update:"03/07/2026"
   },
    {
     id: 32,
@@ -444,9 +443,9 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "hằng - Hiển",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
+    notes: "",
+    link:"https://drive.usercontent.google.com/u/0/uc?id=1FydscoyY41LAcNjM_fphPN8RePYh9I5i&export=download",
+    update:"03/07/2026"
   },
    {
     id: 33,
@@ -458,9 +457,9 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
   {
     id: 34,
@@ -472,26 +471,26 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
+  //  {
+  //   id: 35,
+  //   salon_name: "Ann Nails",
+  //   customer_name: "Ms Ngoan",
+  //   address: "1523 N Texas Blvd, Weslaco, TX 78596",
+  //   phone: "",
+  //   sale_person: "Thuy Duyen",
+  //   assigned_to: "Hien",
+  //   marketing_person: "Hằng - Hiển",
+  //   category: "Nail Salon",
+  //   notes: "",
+  //   link:"",
+  //   update:"03/07/2026"
+  // },
    {
     id: 35,
-    salon_name: "Ann Nails",
-    customer_name: "Ms Ngoan",
-    address: "1523 N Texas Blvd, Weslaco, TX 78596",
-    phone: "",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien",
-    marketing_person: "Hằng - Hiển",
-    category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
-    link:"",
-    update:"02/07/2026"
-  },
-   {
-    id: 34,
     salon_name: "Nail Spa Plus",
     customer_name: "Nghĩa",
     address: "764 Dennery Rd Ste 103, San Diego, CA 92154",
@@ -500,12 +499,12 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
   {
-    id: 35,
+    id: 36,
     salon_name: "Elegant Nails & Alterations",
     customer_name: "Mr Tuấn",
     address: "847 Park Rd C, Pleasant Grove, AL 35127",
@@ -514,12 +513,12 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
    {
-    id: 36,
+    id: 37,
     salon_name: "Apple nails and spa",
     customer_name: "Mai Huynh",
     address: "2340 SE Ocean Blvd, Stuart, FL 34996",
@@ -528,12 +527,12 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
+    update:"03/07/2026"
   },
    {
-    id: 37,
+    id: 38,
     salon_name: "Cutiecures Nail Bar",
     customer_name: "Vy Nguyen",
     address: "958 W El Camino Real, Sunnyvale, CA 94087",
@@ -542,10 +541,94 @@ const MOCK_STORES = [
     assigned_to: "Hien",
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
-    notes: "Thời gian lấy google chưa đủ 1 tháng để làm report , report sẽ gửi vào lần làm report tiếp theo.",
+    notes: "",
     link:"",
-    update:"02/07/2026"
-  }
+    update:"03/07/2026"
+  },
+  {
+    id: 39,
+    salon_name: "Happy Nails",
+    customer_name: "Mrs Hương",
+    address: "613 Philadelphia Pike, Wilmington, DE 19809",
+    phone: "302 357 8628",
+    sale_person: "John Thai",
+    assigned_to: "Hien",
+    marketing_person: "Hùng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link:"",
+    update:"03/07/2026"
+  },
+  {
+    id: 40,
+    salon_name: "Tulip Nails",
+    customer_name: "Mr David",
+    address: "13864 Old Columbia Pike, Silver Spring, MD 20904",
+    phone: "(240) 708-5904",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hằng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link:"",
+    update:"03/07/2026"
+  },
+  {
+    id: 41,
+    salon_name: "Jenny's Nails",
+    customer_name: "NGOC EM",
+    address: "2617 Moses Grandy Trail #108, Chesapeake, VA 23323",
+    phone: "929-240-8855",
+    sale_person: "Thanh Tai",
+    assigned_to: "Hien",
+    marketing_person: "Hùng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link:"",
+    update:"03/07/2026"
+  },
+  {
+    id: 42,
+    salon_name: "Noodles N Boba",
+    customer_name: "Phúc Đặng",
+    address: "1975 Wells Rd, Orange Park, FL 32073, United States",
+    phone: "(407) 309-1423",
+    sale_person: "John Thai",
+    assigned_to: "Hien",
+    marketing_person: "Hùng - Hiển",
+    category: "Restaurant",
+    notes: "",
+    link:"",
+    update:"03/07/2026"
+  },
+  {
+    id: 43,
+    salon_name: "ELIZ'S NAILS",
+    customer_name: "MAI NGA NGUYEN T",
+    address: "7340 FOREST HILL AVE #D, RICHMOND VA 23225",
+    phone: "804-475-8151",
+    sale_person: "My Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hằng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link:"",
+    update:"03/07/2026"
+  },
+  {
+    id: 44,
+    salon_name: "Star nails and spa",
+    customer_name: "Thien Nguyen",
+    address: "1404 Berlin Tpke Wethersfield CT 06109",
+    phone: "(843) 301-1033",
+    sale_person: "Ngan",
+    assigned_to: "Hien",
+    marketing_person: "Hùng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link:"",
+    update:"03/07/2026"
+  },
 ];
 
 
