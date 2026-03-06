@@ -32,11 +32,28 @@
       255, 255, 0.07); transform: translateY(-4px); box-shadow: 0 20px 25px -5px
       rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.2); } .modal-backdrop
       { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(8px); } .hidden
-      { display:block; } @keyframes fadeIn { from { opacity: 0; } to { opacity:
+      { display:none !important; } @keyframes fadeIn { from { opacity: 0; } to { opacity:
       1; } } @keyframes slideUp { from { transform: translateY(20px); opacity:
       0; } to { transform: translateY(0); opacity: 1; } } .animate-fade-in {
       animation: fadeIn 0.3s ease-out; } .animate-slide-up { animation: slideUp
-      0.4s ease-out; }
+      0.4s ease-out; } .leader-glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 20px 80px rgba(99,102,241,0.18); }
+      @keyframes podiumFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      @keyframes premiumGlow { 0%, 100% { box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 18px 60px rgba(99,102,241,0.12); } 50% { box-shadow: 0 0 0 1px rgba(255,255,255,0.16), 0 26px 90px rgba(251,191,36,0.22); } }
+      @keyframes shineSweep { 0% { transform: translateX(-160%) skewX(-18deg); opacity: 0; } 15% { opacity: .2; } 55% { opacity: .4; } 100% { transform: translateX(220%) skewX(-18deg); opacity: 0; } }
+      @keyframes crownPulse { 0%, 100% { transform: scale(1); filter: drop-shadow(0 0 0 rgba(255,255,255,0)); } 50% { transform: scale(1.08); filter: drop-shadow(0 0 18px rgba(255,215,0,0.35)); } }
+      .podium-card { position: relative; isolation: isolate; }
+      .podium-card::after { content: ''; position: absolute; inset: -20% auto -20% -35%; width: 42%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), rgba(255,255,255,0.24), transparent); transform: translateX(-160%) skewX(-18deg); pointer-events: none; z-index: 0; }
+      .podium-card > * { position: relative; z-index: 1; }
+      .podium-animated { animation: podiumFloat 4.8s ease-in-out infinite, premiumGlow 4.8s ease-in-out infinite; }
+      .podium-animated::after { animation: shineSweep 5.5s ease-in-out infinite; }
+      .podium-animated:hover { animation-duration: 3.6s, 3.6s; }
+      .podium-animated:hover::after { animation-duration: 3.2s; }
+      .crown-animated { display: inline-block; animation: crownPulse 2.8s ease-in-out infinite; }
+      .podium-delay-2 { animation-delay: .35s, .35s; }
+      .podium-delay-2::after { animation-delay: .45s; }
+      .podium-delay-3 { animation-delay: .7s, .7s; }
+      .podium-delay-3::after { animation-delay: .9s; }
+      @media (prefers-reduced-motion: reduce) { .podium-animated, .crown-animated, .podium-animated::after { animation: none !important; } }
     </style>
     <script type="importmap">
       {
