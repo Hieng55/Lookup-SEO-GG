@@ -9,7 +9,7 @@ const MOCK_STORES = [
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=14vC7V6jA-8zo4NOSQyXteRj2Xbswg3Lq&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1fUf2MLwfrdMxIj4fXUNCM_JKOi8QaYKL&export=download",
     update: "03/07/2026"
   },
   {
@@ -22,7 +22,7 @@ const MOCK_STORES = [
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1oQngHhcZC60UdjsbHG1Nlhv6F0n9Ouv7&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1O_U683Zygrt4VF7qKz178J5lZ07o6SKR&export=download",
     update: "03/07/2026"
   },
   {
@@ -36,7 +36,7 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1BAAJ8z6Aqx1ZZ5MoQaBlDkVjhig787mf&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1qO40xCRnurChNMFBsW-2ugu2aR4Lyla_&export=download",
     update: "03/07/2026"
   },
   {
@@ -50,7 +50,7 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1e0k9z4wV2DwuXrGGoLFiBBcIQWA552iX&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=11zWe_bo3QU3r-6UETBFNrLV0LfA4RnQd&export=download",
     update: "03/07/2026"
   },
   {
@@ -78,7 +78,7 @@ const MOCK_STORES = [
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1iUWmnmakHykOge0OjUnHk7ABCBZcE70g&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1SjTSsO_UF0pewZZ5wPtFJlj8ht47O9pa&export=download",
     update: "03/07/2026"
   },
   {
@@ -106,7 +106,7 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=18nhYKVnwtbHzcgQ_QCqBixLWF2Wb0f-w&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1wrQU5P7F66j_Levm_4aja7bLrBdE-F8i&export=download",
     update: "03/07/2026"
   },
   {
@@ -120,7 +120,7 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1rwk3i8xNW_DnBfVoxcBOHQXpNQV-o9Y5&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1ChSr9N9PhrKWls_Be2gZCuoebbjp-FfR&export=download",
     update: "03/07/2026"
   },
   {
@@ -133,7 +133,7 @@ const MOCK_STORES = [
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1L8hNo_OMwtUJOLndTHI2ZXbgf9_wFfMk&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1LQm7HBc_6sWAuFMUsOQRkU_aCfIqii7X&export=download",
     update: "03/07/2026"
   },
   {
@@ -147,7 +147,7 @@ const MOCK_STORES = [
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1kfN8zHPpvDn8wB-RXR4Rq5KsrZ4EClGW&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1SjK8ed7t8Q3yag1CwscjHH1betS76bVK&export=download",
     update: "03/07/2026"
   },
   {
@@ -160,7 +160,7 @@ const MOCK_STORES = [
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1nXVEA9neccHeu4euBiUGn3Q1u5oZ5Qoq&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1sdD_bydbXMVwFGcmoKpUIQ5lM_wj-hph&export=download",
     update: "03/07/2026"
   },
   {
@@ -174,7 +174,7 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hang",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1rdMv8E6bAqqUHU_aIQIBa0IbC8y1Oabh&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1ds_yQrvel2czEsUne8ovkNQiB91I9yQ4&export=download",
     update: "03/07/2026"
   },
   {
@@ -188,7 +188,7 @@ const MOCK_STORES = [
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1Smtm2kHP04ghqspEZLUAL0pk52jI2f1B&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1Vw249CJzo1T40Y-8XYE1veTEnxUtU1XH&export=download",
     update: "03/07/2026"
   },
   {
@@ -202,7 +202,7 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hang",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1LbbXT6eSuemHr37oPllrguSpJq1QMbPw&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=13jTTc8gjWEWSwa_aSv6DQ6X-fuRtTwJj&export=download",
     update: "03/07/2026"
   },
   {
@@ -230,7 +230,7 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1ySHEs1s0xznCooPMelm98i1EP8w51JjR&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1XEkgU2h82phzXXfc9ABIgYrvIJuRRNix&export=download",
     update: "03/07/2026"
   },
   {
@@ -244,7 +244,7 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1lKoYMC3h9YnFnBH8qG8NcpHBYadg6SwK&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1_0ewS30ra33MXJxn_B4vHP0Hf8P5z1py&export=download",
     update: "03/07/2026"
   },
   {
@@ -258,7 +258,7 @@ const MOCK_STORES = [
     marketing_person: "Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1EdU6pOxxyru4eO8k91ustHdvz6xAHY-G&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1Fy1ZDwReDnV3dsPa7CArins2cH-LvCTu&export=download",
     update: "03/07/2026"
   },
   {
@@ -272,7 +272,7 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1b7Dpp4VuvKnZwmuNtpiLg3K_8eU8zt6-&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1njxmcxxn3rQdeIo6Gzz5ahKJr54B7mVH&export=download",
     update: "03/07/2026"
   },
   {
@@ -286,7 +286,7 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1fD5D6dQo4ku3DGrmsuhcWG1NE340YU_f&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1-v5wZW2I-R63n3q4uhg3VZxSLRJN6Odx&export=download",
     update: "03/07/2026"
   },
   {
@@ -300,7 +300,7 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1UeiLhjoSv_AOL1-XUkx5PPhC2iq3rPjv&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1sauAUOoPmxNqvzeVkgLiCYfeGTwn5dg8&export=download",
     update: "03/07/2026"
   },
   {
@@ -314,7 +314,7 @@ const MOCK_STORES = [
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1k-GlFW0DInArdIVJtMwVTNYng-CI0Bqj&export=download",
     update: "03/07/2026"
   },
   {
@@ -328,7 +328,7 @@ const MOCK_STORES = [
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=18RVGkhcovCY2adAovegaUVhZjQLsFRxD&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1tpgEJfn4BxQ9rAXXkp8PcHW0h-Zh_9-0&export=download",
     update: "03/07/2026"
   },
   {
@@ -370,7 +370,7 @@ const MOCK_STORES = [
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
     notes: ``,
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1LqtCeajvrT8CmxjfauJcG-AUdvyU7KZj&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=17QpiUdtPPUQNp--C-EHhNWmToKA0MHCE&export=download",
     update: "03/07/2026"
   },
   {
@@ -398,7 +398,7 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
     notes: "",
-    link: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1M6OUa1fBCiAHmHVlvztO7J5zFevQCzxp&export=download",
     update: "03/07/2026"
   },
   {
@@ -412,7 +412,7 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1hbStGLFwuxWO0VkimSZwLNgda8FQ71A6&export=download",
     update: "03/07/2026"
   },
   {
@@ -426,7 +426,7 @@ const MOCK_STORES = [
     marketing_person: "Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1Zq-0MwWq3SerGgUgC-wXEvGGAO15ZS5W&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1W46mip_ZQ1mKu8o6DvtYqNeZxjxkZXak&export=download",
     update: "03/07/2026"
   },
   {
@@ -440,7 +440,7 @@ const MOCK_STORES = [
     marketing_person: "hằng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1FydscoyY41LAcNjM_fphPN8RePYh9I5i&export=download",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1l5M72JPrvwN9Eh0qDR25RT2Eu6VtKsqN&export=download",
     update: "03/07/2026"
   },
   {
@@ -454,7 +454,7 @@ const MOCK_STORES = [
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1IAbhboXhfDVjJY5KXKZ3H1lnP16jX5kT&export=download",
     update: "03/07/2026"
   },
   {
@@ -468,7 +468,7 @@ const MOCK_STORES = [
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1-S70IaEsu-Vc2a-q55L286NPHAvRzAzq&export=download",
     update: "03/07/2026"
   },
   {
@@ -482,7 +482,7 @@ const MOCK_STORES = [
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1xuamYI9ssbNsEye8NmrgT48St-VLh5M_&export=download",
     update: "03/07/2026"
   },
   {
@@ -496,7 +496,7 @@ const MOCK_STORES = [
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1QPvDbvGIt5z833lXKtlV0538VFcyi04I&export=download",
     update: "03/07/2026"
   },
   {
@@ -538,7 +538,7 @@ const MOCK_STORES = [
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1hJ3sjTuwcDCwjFQhO4vL8FCk-Dfn73G0&export=download",
     update: "03/07/2026"
   },
   {
@@ -848,6 +848,20 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
+    update: "03/07/2026"
+  },
+    {
+    id: 64,
+    salon_name: "Elegant Nails Salon",
+    customer_name: "Minh Tân Nguyen",
+    address: "5406 College Ave, Oakland, CA 94618",
+    phone: "(510) 988-8481",
+    sale_person: "John Thai",
+    assigned_to: "Hien",
+    marketing_person: "Hằng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1zsT_gM1dwVEv68NJqJs-Kwx62niAl3sn&export=download",
     update: "03/07/2026"
   },
 ];
