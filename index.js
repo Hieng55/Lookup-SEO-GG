@@ -1,619 +1,5 @@
 
-// 1. Dữ liệu mẫu (MOCK DATA)
-const MOCK_STORES = [
-  {
-    id: 1,
-    salon_name: "Lina Nails",
-    customer_name: "Mr Mike",
-    address: "8088 S 84th St, La Vista, NE 68128",
-    phone: "+14029373372",
-    sale_person: "Thuy Duyen",
-    marketing_person: "Hung - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=14vC7V6jA-8zo4NOSQyXteRj2Xbswg3Lq&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 2,
-    salon_name: "Vicky Nails Spa",
-    customer_name: "Ms Thuy",
-    address: "930 Old Monrovia Rd NW #8, Huntsville, AL 35806",
-    phone: "+12563264181",
-    sale_person: "Thuy Duyen",
-    marketing_person: "Hung - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1oQngHhcZC60UdjsbHG1Nlhv6F0n9Ouv7&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 3,
-    salon_name: "Star Nails & Spa",
-    customer_name: "Ms Kim Anh",
-    address: "102 Rembert C Dennis Blvd, Moncks Corner, SC 29461",
-    phone: "+18168019784",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hang - Hien",
-    marketing_person: "Hang - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1BAAJ8z6Aqx1ZZ5MoQaBlDkVjhig787mf&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 4,
-    salon_name: "Paris Nails",
-    customer_name: "Ms Uyen",
-    address: "1055 Mineral Wells Ave #9, Paris, TN 38242",
-    phone: "+17313361714",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hang - Hien",
-    marketing_person: "Hang - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1e0k9z4wV2DwuXrGGoLFiBBcIQWA552iX&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 5,
-    salon_name: "Canton Tic Tac Nails",
-    customer_name: "Hai Pham",
-    address: "42587 Ford Rd, Canton Township, MI 48187",
-    phone: "+17349347947",
-    sale_person: "Thuy Duyen",
-    marketing_person: "Hung - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=10gbl10lycPVUu4wompiScj2rJ97Wv00D&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 6,
-    salon_name: "Blue J Nails & Head Spa",
-    legal_name: "Blue J Nails & Head Spa",
-    customer_name: "Thuy Nguyen",
-    address: "1475 Bedford Hwy #2A, Bedford, NS B4A 3Z5, Canada",
-    phone: "+19023994477",
-    sale_person: "John Thai",
-    assigned_to: "Tuan - Hien",
-    marketing_person: "Tuan - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1iUWmnmakHykOge0OjUnHk7ABCBZcE70g&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 7,
-    salon_name: "U & Me Hair & Nails",
-    customer_name: "chưa có dữ liệu",
-    address: "2013 Tully Rd, San Jose, CA 95122",
-    phone: "+14086031784",
-    sale_person: "John Thai",
-    assigned_to: "Tuan - Hien",
-    marketing_person: "Tuan - Hien",
-    category: "Nail Salon",
-    notes: "mới tạo google nên không xuất report",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 8,
-    salon_name: "V.V. Nails and Spa",
-    customer_name: "Tung Le",
-    address: "4330 Centerplace Dr #613, Greeley, CO 80635",
-    phone: "+12398516850",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hang - Hien",
-    marketing_person: "Hang - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=18nhYKVnwtbHzcgQ_QCqBixLWF2Wb0f-w&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 9,
-    salon_name: "Sky Nails",
-    customer_name: "Pham Thi Cuc",
-    address: "1484 N State Rd 7, Lauderhill, FL 33313",
-    phone: "+19542574710",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hang - Hien",
-    marketing_person: "Hang - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1rwk3i8xNW_DnBfVoxcBOHQXpNQV-o9Y5&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 10,
-    salon_name: "Classy Nails",
-    customer_name: "Ms Dung",
-    address: "5270 Babcock St NE #12, Palm Bay, FL 32905",
-    phone: "+13214192245",
-    sale_person: "Thuy Duyen",
-    marketing_person: "Hung - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1L8hNo_OMwtUJOLndTHI2ZXbgf9_wFfMk&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 11,
-    salon_name: "Bamboo Nails & Spa",
-    customer_name: "Tammy Dung Nguyen",
-    address: "2711 La Frontera Blvd, Ste 205, Round Rock, TX 78681",
-    phone: "+14056266508",
-    sale_person: "Luci",
-    assigned_to: "Tuan - Hien",
-    marketing_person: "Tuan - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1kfN8zHPpvDn8wB-RXR4Rq5KsrZ4EClGW&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 12,
-    salon_name: "Nail Bar",
-    customer_name: "Nhung Le",
-    address: "7038 Highway 70 South, Nashville, TN 37221",
-    phone: "+16154238816",
-    sale_person: "My Duyen",
-    marketing_person: "Hung - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1nXVEA9neccHeu4euBiUGn3Q1u5oZ5Qoq&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 13,
-    salon_name: "Twinkle Nails & Spa",
-    customer_name: "Thanh Duong",
-    address: "3237 Yonge St, Toronto, ON M4N 2L5, Canada",
-    phone: "+16477183296",
-    sale_person: "John Thai",
-    assigned_to: "Hien - Hang",
-    marketing_person: "Hien - Hang",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1rdMv8E6bAqqUHU_aIQIBa0IbC8y1Oabh&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 14,
-    salon_name: "Salina Nail",
-    customer_name: "Linh Ngoc Bui",
-    address: "1489 County Rd 220 #150, Fleming Island, FL 32003",
-    phone: "+19046516731",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien - Tuan",
-    marketing_person: "Hien - Tuan",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1Smtm2kHP04ghqspEZLUAL0pk52jI2f1B&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 15,
-    salon_name: "King Nail Spa",
-    customer_name: "Thinh Vu Dong",
-    address: "7924 S Broadway Ave Ste 600, Tyler, TX 75703",
-    phone: "+19039448456",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien - Hang",
-    marketing_person: "Hien - Hang",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1LbbXT6eSuemHr37oPllrguSpJq1QMbPw&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 16,
-    salon_name: "Helen Nails & Spa",
-    customer_name: "Phong Hong Nguyen",
-    address: "1321 Fulton Ave, Sacramento, CA 95825",
-    phone: "+12099694203",
-    sale_person: "Luci",
-    assigned_to: "Hien - Tuan",
-    marketing_person: "Hien - Tuan",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 17,
-    salon_name: "Solar Deluxe Nails & Facial",
-    customer_name: "Tri Huu Pham",
-    address: "10400 S Post Oak, Suite B, Houston, TX 77035",
-    phone: "+12817458379",
-    sale_person: "Luci",
-    assigned_to: "Hien - Hung",
-    marketing_person: "Hien - Hung",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1ySHEs1s0xznCooPMelm98i1EP8w51JjR&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 18,
-    salon_name: "Eagle Nails",
-    customer_name: "Hua Y Pi",
-    address: "1700 Park Ave, Ste 104B, Park City, UT 84060",
-    phone: "+13852228122",
-    sale_person: "Dao",
-    assigned_to: "Hien - Hung",
-    marketing_person: "Hien - Hung",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1lKoYMC3h9YnFnBH8qG8NcpHBYadg6SwK&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 19,
-    salon_name: "Days Nails & Spa by XM",
-    customer_name: "Thi Xuan Pham",
-    address: "5140 Chattahoochee Ind Park, Cumming, GA 30041",
-    phone: "+14049605418",
-    sale_person: "Ruby",
-    assigned_to: "Hien",
-    marketing_person: "Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1EdU6pOxxyru4eO8k91ustHdvz6xAHY-G&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 20,
-    salon_name: "Star Nails & Spa",
-    customer_name: "Luat Thanh Nguyen",
-    address: "1416 Military Rd, Benton, AR 72015",
-    phone: "+15012498440",
-    sale_person: "Ngoc Anh",
-    assigned_to: "Hang - Hien",
-    marketing_person: "Hang - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1b7Dpp4VuvKnZwmuNtpiLg3K_8eU8zt6-&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 21,
-    salon_name: "Lumina Nails Lounge",
-    customer_name: "Phuc Hong Do",
-    address: "2526 S Campbell Ave, Springfield, MO 65807",
-    phone: "+14173504798",
-    sale_person: "Minh Anh",
-    assigned_to: "Hang - Hien",
-    marketing_person: "Hang - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1fD5D6dQo4ku3DGrmsuhcWG1NE340YU_f&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 22,
-    salon_name: "Nails Colure & Spa",
-    customer_name: "Nancy Le",
-    address: "2008 S Main St #304, Wake Forest, NC 27587",
-    phone: "+19194578719",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hang - Hien",
-    marketing_person: "Hang - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1UeiLhjoSv_AOL1-XUkx5PPhC2iq3rPjv&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 23,
-    salon_name: "J&M Nail Bar",
-    customer_name: "Ai Duc Hoang",
-    address: "11444 Hardin Valley Rd, Knoxville, TN 37932",
-    phone: "+18652666160",
-    sale_person: "Luci",
-    assigned_to: "Tuan - Hien",
-    marketing_person: "Tuan - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 24,
-    salon_name: "Morrissey Nails and Spa",
-    customer_name: "Vu Hoang Phung",
-    address: "960 Morrissey Blvd Space #6 & #7, Dorchester, MA 02122",
-    phone: "+16178881827",
-    sale_person: "John Thai",
-    assigned_to: "Hien - Tuan",
-    marketing_person: "Hien - Tuan",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=18RVGkhcovCY2adAovegaUVhZjQLsFRxD&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 25,
-    salon_name: "Image Nails",
-    customer_name: "John",
-    address: "139 N Belt Hwy Suite F, St Joseph, MO 64506",
-    phone: "+17015413140",
-    sale_person: "Truong",
-    assigned_to: "Hien - Hung",
-    marketing_person: "Hien - Hung",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1rnm-vL7prLfPWbvG8c_yGqg75hc7pFoc&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 26,
-    salon_name: "Fashion Nails and Spa",
-    customer_name: "Lien My Thi Tran",
-    address: "3441 E Causeway Approach Ste L, Mandeville, LA 70448",
-    phone: "+15043889102",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien - Tuan",
-    marketing_person: "Hien - Tuan",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1X0lVzTW-7YQIG6wqRCc4XilAK3xM5eQj&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 27,
-    salon_name: "The Nail Place Coppell LLC",
-    customer_name: "Le Thi Ngoc Oanh",
-    address: "230 N Denton Tap Rd, Ste 105, Coppell, TX 75019",
-    phone: "+12142284029",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien - Tuan",
-    marketing_person: "Hien - Tuan",
-    category: "Nail Salon",
-    notes: ``,
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1LqtCeajvrT8CmxjfauJcG-AUdvyU7KZj&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 28,
-    salon_name: "Swan Nail",
-    customer_name: "Hai Anh - Thanh Thi Pham",
-    address: "4020 Hedgcoxe Rd #600, Plano, TX 75024",
-    phone: "+17372882991",
-    sale_person: "Yen Vuong",
-    assigned_to: "Hien - Hung",
-    marketing_person: "Hien - Hung",
-    category: "Nail Salon",
-    notes: ``,
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1gq7XfId18X3VNWC0ZDLgax57Behxs3bY&export=download",
-    update:"03/07/2026"
-  },
-  {
-    id: 29,
-    salon_name: "Antony Nails Bar",
-    customer_name: "Hien Nguyen",
-    address: "3710 E Main St Ste H, Blytheville, AR 72315",
-    phone: "+14697631113",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien - Hung",
-    marketing_person: "Hien - Hung",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 30,
-    salon_name: "Vip Nails Baytown",
-    customer_name: "Johnny Nguyen",
-    address: "508 Garth Rd F, Baytown, TX 77521, United States",
-    phone: "+18329082050",
-    sale_person: "John Thai",
-    assigned_to: "hằng - Hiển",
-    marketing_person: "Hang - Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 31,
-    salon_name: "IRIS NAILS FACIAL LLC",
-    customer_name: "ANH THI DUYEN NGUYEN ",
-    address: "3435 RAINTREE VILLAGE DR, KATY, TX 77449-7026",
-    phone: "+18322874690",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien",
-    marketing_person: "Hien",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1Zq-0MwWq3SerGgUgC-wXEvGGAO15ZS5W&export=download",
-    update:"03/07/2026"
-  },
-   {
-    id: 32,
-    salon_name: "Village Nails & Spa",
-    customer_name: "Mr Thương ",
-    address: "5618 Newbury St, Baltimore, MD 21209",
-    phone: "(443) 248-6082",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien",
-    marketing_person: "hằng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"https://drive.usercontent.google.com/u/0/uc?id=1FydscoyY41LAcNjM_fphPN8RePYh9I5i&export=download",
-    update:"03/07/2026"
-  },
-   {
-    id: 33,
-    salon_name: "Lucy Nails & Spa",
-    customer_name: "Mr Toản",
-    address: "973 East Ave, Chico, CA 95926",
-    phone: "(916) 837-7135",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien",
-    marketing_person: "Hùng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 34,
-    salon_name: "Ann Nails",
-    customer_name: "Ms Ngoan",
-    address: "1523 N Texas Blvd, Weslaco, TX 78596",
-    phone: "",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien",
-    marketing_person: "Hằng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-   {
-    id: 35,
-    salon_name: "Nail Spa Plus",
-    customer_name: "Nghĩa",
-    address: "764 Dennery Rd Ste 103, San Diego, CA 92154",
-    phone: "(858) 357-4941",
-    sale_person: "john thai",
-    assigned_to: "Hien",
-    marketing_person: "Hùng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 36,
-    salon_name: "Elegant Nails & Alterations",
-    customer_name: "Mr Tuấn",
-    address: "847 Park Rd C, Pleasant Grove, AL 35127",
-    phone: "(205) 370-4340",
-    sale_person: "thuy duyen",
-    assigned_to: "Hien",
-    marketing_person: "Hằng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-   {
-    id: 37,
-    salon_name: "Apple nails and spa",
-    customer_name: "Mai Huynh",
-    address: "2340 SE Ocean Blvd, Stuart, FL 34996",
-    phone: "(772) 200-1227",
-    sale_person: "john thai",
-    assigned_to: "Hien",
-    marketing_person: "Hùng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-   {
-    id: 38,
-    salon_name: "Cutiecures Nail Bar",
-    customer_name: "Vy Nguyen",
-    address: "958 W El Camino Real, Sunnyvale, CA 94087",
-    phone: "408-649-1109",
-    sale_person: "Ngan",
-    assigned_to: "Hien",
-    marketing_person: "Hùng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 39,
-    salon_name: "Happy Nails",
-    customer_name: "Mrs Hương",
-    address: "613 Philadelphia Pike, Wilmington, DE 19809",
-    phone: "302 357 8628",
-    sale_person: "John Thai",
-    assigned_to: "Hien",
-    marketing_person: "Hùng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 40,
-    salon_name: "Tulip Nails",
-    customer_name: "Mr David",
-    address: "13864 Old Columbia Pike, Silver Spring, MD 20904",
-    phone: "(240) 708-5904",
-    sale_person: "Thuy Duyen",
-    assigned_to: "Hien",
-    marketing_person: "Hằng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 41,
-    salon_name: "Jenny's Nails",
-    customer_name: "NGOC EM",
-    address: "2617 Moses Grandy Trail #108, Chesapeake, VA 23323",
-    phone: "929-240-8855",
-    sale_person: "Thanh Tai",
-    assigned_to: "Hien",
-    marketing_person: "Hùng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 42,
-    salon_name: "Noodles N Boba",
-    customer_name: "Phúc Đặng",
-    address: "1975 Wells Rd, Orange Park, FL 32073, United States",
-    phone: "(407) 309-1423",
-    sale_person: "John Thai",
-    assigned_to: "Hien",
-    marketing_person: "Hùng - Hiển",
-    category: "Restaurant",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 43,
-    salon_name: "ELIZ'S NAILS",
-    customer_name: "MAI NGA NGUYEN T",
-    address: "7340 FOREST HILL AVE #D, RICHMOND VA 23225",
-    phone: "804-475-8151",
-    sale_person: "My Duyen",
-    assigned_to: "Hien",
-    marketing_person: "Hằng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-  {
-    id: 44,
-    salon_name: "Star nails and spa",
-    customer_name: "Thien Nguyen",
-    address: "1404 Berlin Tpke Wethersfield CT 06109",
-    phone: "(843) 301-1033",
-    sale_person: "Ngan",
-    assigned_to: "Hien",
-    marketing_person: "Hùng - Hiển",
-    category: "Nail Salon",
-    notes: "",
-    link:"",
-    update:"03/07/2026"
-  },
-];
+
 
 const normalizeText = (value = '') => value.toString().trim().toLowerCase().replace(/\s+/g, ' ');
 const formatName = (value = '') => value
@@ -864,10 +250,10 @@ function renderLeaderboard(filteredStores = [], options = {}) {
 
 // Render Card tiệm
 function createStoreCard(store, index = 0) {
-    const div = document.createElement('div');
-    const accentRing = index === 0 ? 'border-cyan-300/35 shadow-[0_12px_35px_rgba(34,211,238,0.18)]' : 'border-white/10';
-    div.className = `glass-card rounded-2xl p-6 flex flex-col h-full group cursor-pointer shadow-lg shadow-black/20 ${accentRing}`;
-    div.innerHTML = `
+  const div = document.createElement('div');
+  const accentRing = index === 0 ? 'border-cyan-300/35 shadow-[0_12px_35px_rgba(34,211,238,0.18)]' : 'border-white/10';
+  div.className = `glass-card rounded-2xl p-6 flex flex-col h-full group cursor-pointer shadow-lg shadow-black/20 ${accentRing}`;
+  div.innerHTML = `
         <div class="flex justify-between items-start gap-3 mb-4">
             <div>
               <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] ${index < 3 ? 'bg-cyan-400/10 text-cyan-200 border border-cyan-300/20' : 'bg-white/5 text-slate-300 border border-white/10'}">${`Thứ tự #${index + 1}`}</div>
@@ -897,8 +283,8 @@ function createStoreCard(store, index = 0) {
             Xem Chi Tiết
         </button>
     `;
-    div.onclick = () => openDetail(store);
-    return div;
+  div.onclick = () => openDetail(store);
+  return div;
 }
 
 function renderStoreResults(results, titleText = 'Kết quả tìm kiếm') {
@@ -925,38 +311,38 @@ function resetView() {
 
 // Xử lý tìm kiếm
 searchInput.oninput = (e) => {
-    const term = e.target.value.toLowerCase().trim();
+  const term = e.target.value.toLowerCase().trim();
 
-    if (!term) {
-        resetView();
-        return;
-    }
+  if (!term) {
+    resetView();
+    return;
+  }
 
-    welcomePlaceholder.classList.add('hidden');
-    resultsTitle.classList.remove('hidden');
-    leaderboardSection.classList.add('hidden');
+  welcomePlaceholder.classList.add('hidden');
+  resultsTitle.classList.remove('hidden');
+  leaderboardSection.classList.add('hidden');
 
-    const cleanedTerm = cleanPhone(term);
-    const isNumeric = /^\d+$/.test(cleanedTerm);
-    let results = [];
+  const cleanedTerm = cleanPhone(term);
+  const isNumeric = /^\d+$/.test(cleanedTerm);
+  let results = [];
 
-    if (isNumeric) {
-        results = MOCK_STORES.filter(s => cleanPhone(s.phone).includes(cleanedTerm));
-        renderStoreResults(results, results.length ? 'Kết quả theo số điện thoại' : 'Không có kết quả theo số điện thoại');
-    } else {
-        const normalizedTerm = normalizeText(term);
-        results = MOCK_STORES
-          .filter(s => normalizeText(s.sale_person).includes(normalizedTerm))
-          .sort((a, b) => formatName(a.salon_name).localeCompare(formatName(b.salon_name), 'vi'));
+  if (isNumeric) {
+    results = MOCK_STORES.filter(s => cleanPhone(s.phone).includes(cleanedTerm));
+    renderStoreResults(results, results.length ? 'Kết quả theo số điện thoại' : 'Không có kết quả theo số điện thoại');
+  } else {
+    const normalizedTerm = normalizeText(term);
+    results = MOCK_STORES
+      .filter(s => normalizeText(s.sale_person).includes(normalizedTerm))
+      .sort((a, b) => formatName(a.salon_name).localeCompare(formatName(b.salon_name), 'vi'));
 
-        renderStoreResults(results, results.length ? `Danh sách tiệm của sale: ${searchInput.value.trim()}` : 'Không tìm thấy sale phù hợp');
-    }
+    renderStoreResults(results, results.length ? `Danh sách tiệm của sale: ${searchInput.value.trim()}` : 'Không tìm thấy sale phù hợp');
+  }
 };
 
 // Popup chi tiết
 function openDetail(store) {
-    selectedStore = store;
-    modalContent.innerHTML = `
+  selectedStore = store;
+  modalContent.innerHTML = `
         <div><label class="text-[10px] uppercase text-indigo-400 font-bold mb-1 block tracking-widest">Tên Tiệm</label><p class="text-xl text-white font-bold">${store.salon_name}</p></div>
         <div><label class="text-[10px] uppercase text-indigo-400 font-bold mb-1 block tracking-widest">Chủ Tiệm</label><p class="text-xl text-white font-bold">${store.customer_name}</p></div>
         <div><label class="text-[10px] uppercase text-indigo-400 font-bold mb-1 block tracking-widest">Số Điện Thoại</label><p class="text-lg text-slate-200">${store.phone || 'Chưa có dữ liệu'}</p></div>
@@ -965,23 +351,23 @@ function openDetail(store) {
         <div><label class="text-[10px] uppercase text-indigo-400 font-bold mb-1 block tracking-widest">Thời Gian Report</label><p class="text-lg text-slate-200">${store.update || 'Chưa có dữ liệu'}</p></div>
         <div class="md:col-span-2"><label class="text-[10px] uppercase text-indigo-400 font-bold mb-1 block tracking-widest">Địa Chỉ</label><p class="text-lg text-slate-200">${store.address}</p></div>
     `;
-    aiDetailText.innerText = store.notes || 'Không có ghi chú thêm.';
-    aiDetailText.className = 'text-slate-300 text-center text-sm italic';
-    detailModal.classList.remove('hidden');
-    detailModal.classList.add('flex');
+  aiDetailText.innerText = store.notes || 'Không có ghi chú thêm.';
+  aiDetailText.className = 'text-slate-300 text-center text-sm italic';
+  detailModal.classList.remove('hidden');
+  detailModal.classList.add('flex');
 }
 
 function closeModal() {
-    detailModal.classList.add('hidden');
-    detailModal.classList.remove('flex');
-    selectedStore = null;
+  detailModal.classList.add('hidden');
+  detailModal.classList.remove('flex');
+  selectedStore = null;
 }
 
 document.getElementById('closeModal').onclick = closeModal;
 document.getElementById('closeModalBtn').onclick = closeModal;
 
 document.getElementById('closeAiInsight').onclick = () => {
-    aiInsightContainer.classList.add('hidden');
+  aiInsightContainer.classList.add('hidden');
 };
 
 document.getElementById('downloadPdfBtn').onclick = () => {
