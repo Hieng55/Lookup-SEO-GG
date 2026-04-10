@@ -1,6 +1,3 @@
-
-
-
 const normalizeText = (value = '') => value.toString().trim().toLowerCase().replace(/\s+/g, ' ');
 const formatName = (value = '') => value
   .toString()
