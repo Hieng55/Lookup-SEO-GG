@@ -617,7 +617,7 @@ const MOCK_STORES = [
     customer_name: "THAO THANH BUI",
     address: "10808 PRAIRIE HILLS DRIVE, OMAHA, NEBRASKA 68144",
     phone: "(402) 802-7508",
-    sale_person: "Ngọc Anh",
+    sale_person: "Ngoc Anh",
     assigned_to: "Hien",
     marketing_person: "Hùng - Hiển",
     category: "Tattoo",
