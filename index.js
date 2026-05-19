@@ -1,6 +1,13 @@
-const normalizeText = (value = '') => value.toString().trim().toLowerCase().replace(/\s+/g, ' ');
-const formatName = (value = '') => value
-  .toString()
+const removeVietnameseTones = (str) => {
+  return str
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd')
+    .replace(/Đ/g, 'D');
+};
+
+const normalizeText = (value = '') => removeVietnameseTones(value.toString()).trim().toLowerCase().replace(/\s+/g, ' ');
+const formatName = (value = '') => removeVietnameseTones(value.toString())
   .trim()
   .split(/\s+/)
   .filter(Boolean)
