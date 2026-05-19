@@ -9,8 +9,8 @@ const MOCK_STORES = [
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1fUf2MLwfrdMxIj4fXUNCM_JKOi8QaYKL&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=14vC7V6jA-8zo4NOSQyXteRj2Xbswg3Lq&export=download",
+    update: "19/05/2026"
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ const MOCK_STORES = [
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1O_U683Zygrt4VF7qKz178J5lZ07o6SKR&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1oQngHhcZC60UdjsbHG1Nlhv6F0n9Ouv7&export=download",
+    update: "19/05/2026"
   },
   {
     id: 3,
@@ -36,8 +36,8 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1qO40xCRnurChNMFBsW-2ugu2aR4Lyla_&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1BAAJ8z6Aqx1ZZ5MoQaBlDkVjhig787mf&export=download",
+    update: "19/05/2026"
   },
   {
     id: 4,
@@ -50,8 +50,8 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=11zWe_bo3QU3r-6UETBFNrLV0LfA4RnQd&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1e0k9z4wV2DwuXrGGoLFiBBcIQWA552iX&export=download",
+    update: "19/05/2026"
   },
   {
     id: 5,
@@ -64,7 +64,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=10gbl10lycPVUu4wompiScj2rJ97Wv00D&export=download",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 6,
@@ -78,8 +78,8 @@ const MOCK_STORES = [
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1SjTSsO_UF0pewZZ5wPtFJlj8ht47O9pa&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1iUWmnmakHykOge0OjUnHk7ABCBZcE70g&export=download",
+    update: "19/05/2026"
   },
   {
     id: 7,
@@ -93,7 +93,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "mới tạo google nên không xuất report",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 8,
@@ -106,8 +106,8 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1wrQU5P7F66j_Levm_4aja7bLrBdE-F8i&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=18nhYKVnwtbHzcgQ_QCqBixLWF2Wb0f-w&export=download",
+    update: "19/05/2026"
   },
   {
     id: 9,
@@ -120,8 +120,8 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1ChSr9N9PhrKWls_Be2gZCuoebbjp-FfR&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1rwk3i8xNW_DnBfVoxcBOHQXpNQV-o9Y5&export=download",
+    update: "19/05/2026"
   },
   {
     id: 10,
@@ -133,8 +133,8 @@ const MOCK_STORES = [
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1LQm7HBc_6sWAuFMUsOQRkU_aCfIqii7X&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1L8hNo_OMwtUJOLndTHI2ZXbgf9_wFfMk&export=download",
+    update: "19/05/2026"
   },
   {
     id: 11,
@@ -147,8 +147,8 @@ const MOCK_STORES = [
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1SjK8ed7t8Q3yag1CwscjHH1betS76bVK&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1kfN8zHPpvDn8wB-RXR4Rq5KsrZ4EClGW&export=download",
+    update: "19/05/2026"
   },
   {
     id: 12,
@@ -160,8 +160,8 @@ const MOCK_STORES = [
     marketing_person: "Hung - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1sdD_bydbXMVwFGcmoKpUIQ5lM_wj-hph&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1nXVEA9neccHeu4euBiUGn3Q1u5oZ5Qoq&export=download",
+    update: "19/05/2026"
   },
   {
     id: 13,
@@ -174,8 +174,8 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hang",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1ds_yQrvel2czEsUne8ovkNQiB91I9yQ4&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1rdMv8E6bAqqUHU_aIQIBa0IbC8y1Oabh&export=download",
+    update: "19/05/2026"
   },
   {
     id: 14,
@@ -188,8 +188,8 @@ const MOCK_STORES = [
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1Vw249CJzo1T40Y-8XYE1veTEnxUtU1XH&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1Smtm2kHP04ghqspEZLUAL0pk52jI2f1B&export=download",
+    update: "19/05/2026"
   },
   {
     id: 15,
@@ -202,8 +202,8 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hang",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=13jTTc8gjWEWSwa_aSv6DQ6X-fuRtTwJj&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1LbbXT6eSuemHr37oPllrguSpJq1QMbPw&export=download",
+    update: "19/05/2026"
   },
   {
     id: 16,
@@ -217,7 +217,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 17,
@@ -230,8 +230,8 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1XEkgU2h82phzXXfc9ABIgYrvIJuRRNix&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1ySHEs1s0xznCooPMelm98i1EP8w51JjR&export=download",
+    update: "19/05/2026"
   },
   {
     id: 18,
@@ -244,8 +244,8 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1_0ewS30ra33MXJxn_B4vHP0Hf8P5z1py&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1lKoYMC3h9YnFnBH8qG8NcpHBYadg6SwK&export=download",
+    update: "19/05/2026"
   },
   {
     id: 19,
@@ -258,8 +258,8 @@ const MOCK_STORES = [
     marketing_person: "Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1Fy1ZDwReDnV3dsPa7CArins2cH-LvCTu&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1EdU6pOxxyru4eO8k91ustHdvz6xAHY-G&export=download",
+    update: "19/05/2026"
   },
   {
     id: 20,
@@ -272,8 +272,8 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1njxmcxxn3rQdeIo6Gzz5ahKJr54B7mVH&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1b7Dpp4VuvKnZwmuNtpiLg3K_8eU8zt6-&export=download",
+    update: "19/05/2026"
   },
   {
     id: 21,
@@ -286,8 +286,8 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1-v5wZW2I-R63n3q4uhg3VZxSLRJN6Odx&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1fD5D6dQo4ku3DGrmsuhcWG1NE340YU_f&export=download",
+    update: "19/05/2026"
   },
   {
     id: 22,
@@ -300,8 +300,8 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1sauAUOoPmxNqvzeVkgLiCYfeGTwn5dg8&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1UeiLhjoSv_AOL1-XUkx5PPhC2iq3rPjv&export=download",
+    update: "19/05/2026"
   },
   {
     id: 23,
@@ -314,8 +314,8 @@ const MOCK_STORES = [
     marketing_person: "Tuan - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1k-GlFW0DInArdIVJtMwVTNYng-CI0Bqj&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
   },
   {
     id: 24,
@@ -328,8 +328,8 @@ const MOCK_STORES = [
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1tpgEJfn4BxQ9rAXXkp8PcHW0h-Zh_9-0&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=18RVGkhcovCY2adAovegaUVhZjQLsFRxD&export=download",
+    update: "19/05/2026"
   },
   {
     id: 25,
@@ -343,7 +343,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1rnm-vL7prLfPWbvG8c_yGqg75hc7pFoc&export=download",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 26,
@@ -357,7 +357,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1X0lVzTW-7YQIG6wqRCc4XilAK3xM5eQj&export=download",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 27,
@@ -370,8 +370,8 @@ const MOCK_STORES = [
     marketing_person: "Hien - Tuan",
     category: "Nail Salon",
     notes: ``,
-    link: "https://drive.usercontent.google.com/u/0/uc?id=17QpiUdtPPUQNp--C-EHhNWmToKA0MHCE&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1LqtCeajvrT8CmxjfauJcG-AUdvyU7KZj&export=download",
+    update: "19/05/2026"
   },
   {
     id: 28,
@@ -385,7 +385,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: ``,
     link: "https://drive.usercontent.google.com/u/0/uc?id=1gq7XfId18X3VNWC0ZDLgax57Behxs3bY&export=download",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 29,
@@ -398,8 +398,8 @@ const MOCK_STORES = [
     marketing_person: "Hien - Hung",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1M6OUa1fBCiAHmHVlvztO7J5zFevQCzxp&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
   },
   {
     id: 30,
@@ -412,8 +412,8 @@ const MOCK_STORES = [
     marketing_person: "Hang - Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1hbStGLFwuxWO0VkimSZwLNgda8FQ71A6&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
   },
   {
     id: 31,
@@ -426,8 +426,8 @@ const MOCK_STORES = [
     marketing_person: "Hien",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1W46mip_ZQ1mKu8o6DvtYqNeZxjxkZXak&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1Zq-0MwWq3SerGgUgC-wXEvGGAO15ZS5W&export=download",
+    update: "19/05/2026"
   },
   {
     id: 32,
@@ -440,8 +440,8 @@ const MOCK_STORES = [
     marketing_person: "hằng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1l5M72JPrvwN9Eh0qDR25RT2Eu6VtKsqN&export=download",
-    update: "04/10/2026"
+    link: "https://drive.usercontent.google.com/u/0/uc?id=1FydscoyY41LAcNjM_fphPN8RePYh9I5i&export=download",
+    update: "19/05/2026"
   },
   {
     id: 33,
@@ -454,8 +454,8 @@ const MOCK_STORES = [
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1IAbhboXhfDVjJY5KXKZ3H1lnP16jX5kT&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
   },
   {
     id: 34,
@@ -468,8 +468,8 @@ const MOCK_STORES = [
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1-S70IaEsu-Vc2a-q55L286NPHAvRzAzq&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
   },
   {
     id: 35,
@@ -482,8 +482,8 @@ const MOCK_STORES = [
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1xuamYI9ssbNsEye8NmrgT48St-VLh5M_&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
   },
   {
     id: 36,
@@ -496,8 +496,8 @@ const MOCK_STORES = [
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1QPvDbvGIt5z833lXKtlV0538VFcyi04I&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
   },
   {
     id: 37,
@@ -511,7 +511,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 38,
@@ -525,7 +525,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 39,
@@ -538,8 +538,8 @@ const MOCK_STORES = [
     marketing_person: "Hùng - Hiển",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1hJ3sjTuwcDCwjFQhO4vL8FCk-Dfn73G0&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
   },
   {
     id: 40,
@@ -553,7 +553,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 41,
@@ -567,7 +567,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 42,
@@ -581,7 +581,7 @@ const MOCK_STORES = [
     category: "Restaurant",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 43,
@@ -595,7 +595,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 44,
@@ -609,7 +609,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 45,
@@ -617,13 +617,13 @@ const MOCK_STORES = [
     customer_name: "THAO THANH BUI",
     address: "10808 PRAIRIE HILLS DRIVE, OMAHA, NEBRASKA 68144",
     phone: "(402) 802-7508",
-    sale_person: "Ngoc Anh",
+    sale_person: "Ngọc Anh",
     assigned_to: "Hien",
     marketing_person: "Hùng - Hiển",
     category: "Tattoo",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
 
   {
@@ -638,7 +638,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 47,
@@ -646,13 +646,13 @@ const MOCK_STORES = [
     customer_name: "Loan",
     address: "6799 Wilson Blvd # 7, Falls Church, VA 22044",
     phone: "703-241-4143",
-    sale_person: "Thanh Tai",
+    sale_person: "Tài",
     assigned_to: "Hien",
     marketing_person: "Hùng - Hiển",
     category: "Beauty Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 48,
@@ -660,13 +660,13 @@ const MOCK_STORES = [
     customer_name: "Loan",
     address: "4880 Lower Roswell Rd Suite 470, Marietta, GA 30068",
     phone: "770-354-1600",
-    sale_person: "My Duyen",
+    sale_person: "MỸ DUYÊN",
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 49,
@@ -674,13 +674,13 @@ const MOCK_STORES = [
     customer_name: "Loan",
     address: "419 Old Elkhart Rd, Palestine, TX 75801",
     phone: "9034808707",
-    sale_person: "Thuy Duyen",
+    sale_person: "Thùy Duyên",
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 50,
@@ -688,13 +688,13 @@ const MOCK_STORES = [
     customer_name: "Ms Kim",
     address: "96 Weaverville Rd Unit 101, Asheville, NC 28804",
     phone: "8284506932",
-    sale_person: "Thuy Duyen",
+    sale_person: "Thùy Duyên",
     assigned_to: "Hien",
     marketing_person: "hùng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 52,
@@ -702,13 +702,13 @@ const MOCK_STORES = [
     customer_name: "Veon",
     address: "no address",
     phone: "(828) 216-9908",
-    sale_person: "Thuy Duyen",
+    sale_person: "Thùy Duyên",
     assigned_to: "Hien",
     marketing_person: "hùng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 53,
@@ -716,13 +716,13 @@ const MOCK_STORES = [
     customer_name: "Ms Diễm",
     address: "734 W National Rd, Vandalia, OH 45377",
     phone: "9377506808",
-    sale_person: "Thuy Duyen",
+    sale_person: "Thùy Duyên",
     assigned_to: "Hien",
     marketing_person: "hùng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 54,
@@ -730,13 +730,13 @@ const MOCK_STORES = [
     customer_name: "Mr Trường",
     address: "1505 George Dieter Dr Ste 108, El Paso, TX 79936",
     phone: "(808) 339-6489",
-    sale_person: "Thuy Duyen",
+    sale_person: "Thùy Duyên",
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 56,
@@ -744,13 +744,13 @@ const MOCK_STORES = [
     customer_name: "THOA THI KIM NGUYEN",
     address: "1521 MILTON AVE, JANESVILLE, WI 53545",
     phone: "(608) 580-2606",
-    sale_person: "Ngoc Anh",
+    sale_person: "Ngọc Anh",
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 57,
@@ -764,7 +764,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 58,
@@ -772,13 +772,13 @@ const MOCK_STORES = [
     customer_name: "HANG NGA THI DINH ",
     address: "12119 LITTLE RD , HUDSON FL 34667",
     phone: "(727) 254-9147",
-    sale_person: "Ngoc Anh",
+    sale_person: "Ngọc Anh",
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 59,
@@ -786,13 +786,13 @@ const MOCK_STORES = [
     customer_name: "SUONG LE",
     address: "120 Alps Rd, Athens, GA 30606",
     phone: "(678) 575-6436",
-    sale_person: "Ngan",
+    sale_person: "NGÂN",
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 60,
@@ -806,7 +806,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 61,
@@ -814,13 +814,13 @@ const MOCK_STORES = [
     customer_name: "GIAU THI LE",
     address: "3141 FM 528 SUITE 300 , FRIENDSWOOD TX 77546",
     phone: "281-716-0663",
-    sale_person: "Ngan",
+    sale_person: "Ngân",
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 62,
@@ -834,7 +834,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
   {
     id: 63,
@@ -842,26 +842,348 @@ const MOCK_STORES = [
     customer_name: "KIEU NGOC XUAN TRAN",
     address: "322 E Shaw Ave, Fresno, CA 93710",
     phone: "(559) 394-8160",
-    sale_person: "Ngan",
+    sale_person: "Ngân",
     assigned_to: "Hien",
     marketing_person: "Hằng - Hiển",
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "04/10/2026"
+    update: "19/05/2026"
   },
-    {
+  {
     id: 64,
-    salon_name: "Elegant Nails Salon",
-    customer_name: "Minh Tân Nguyen",
-    address: "5406 College Ave, Oakland, CA 94618",
-    phone: "(510) 988-8481",
-    sale_person: "John Thai",
+    salon_name: "Glossy Nails",
+    customer_name: "Ms Hiền",
+    address: "1056 Goodman Rd E, Southaven, MS 38671",
+    phone: "(901) 336-7008",
+    sale_person: "Thuy Duyen",
     assigned_to: "Hien",
-    marketing_person: "Hằng - Hiển",
+    marketing_person: "Hiển-Hùng",
     category: "Nail Salon",
     notes: "",
-    link: "https://drive.usercontent.google.com/u/0/uc?id=1zsT_gM1dwVEv68NJqJs-Kwx62niAl3sn&export=download",
-    update: "04/10/2026"
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 65,
+    salon_name: "ROSE'S NAILS & SPA",
+    customer_name: "Nancy",
+    address: "1209 Flammang Dr, Waterloo, IA 50702",
+    phone: "(712) 444-3066",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 66,
+    salon_name: "INKNITY TATTOO",
+    customer_name: "Nghĩa",
+    address: "7701 SHARON LAKES RD, CHARLOTTE, NC 28210",
+    phone: "(980) 613-2139",
+    sale_person: "Ngoc Anh",
+    assigned_to: "Hien",
+    marketing_person: "Hiển",
+    category: "Tatoo Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 67,
+    salon_name: "Modern Nails & Spa",
+    customer_name: "",
+    address: "3825 University Ave, Waterloo, IA 50701",
+    phone: "(980) 613-2139",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "Văn - Ngân",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 68,
+    salon_name: "Diva Nails & Spa",
+    customer_name: "Mỹ",
+    address: "6 Bank St, Nitro, WV 25143, United States",
+    phone: "(681) 417-9617",
+    sale_person: "John Thai",
+    assigned_to: "Hien",
+    marketing_person: "hằng-hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 69,
+    salon_name: "GORGEOUS NAILS",
+    customer_name: "ALICIA CHAU NGUYEN",
+    address: "27327 23 Mile Rd, Chesterfield, MI 48051",
+    phone: "586-329-1993",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "hằng-hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 70,
+    salon_name: "Judy Nails Spa Lashes",
+    customer_name: "Diem Truong",
+    address: "2428 Southmore Ave, Pasadena, TX 77502",
+    phone: "(832) 274-0313",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "hùng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 71,
+    salon_name: "Andy Nail Spa ",
+    customer_name: "Diệu",
+    address: "4467 Mission St, San Francisco, CA 94112",
+    phone: "(415) 335-0671",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "hằng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 72,
+    salon_name: "315 Pedi N Nails ",
+    customer_name: "Van Dang",
+    address: "315 Lincoln Rd unit 9, Waterloo, ON N2J 4H7",
+    phone: "(226) 505-4783",
+    sale_person: "John Thai",
+    assigned_to: "Hien",
+    marketing_person: "hùng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 73,
+    salon_name: "Shine Nail Art",
+    customer_name: "Ms Anh",
+    address: "7941 Beach Blvd C, Buena Park, CA 90620",
+    phone: "(714) 710-2168",
+    sale_person: "Dino Dũ",
+    assigned_to: "Hien",
+    marketing_person: "hằng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 74,
+    salon_name: "Cutiecures Nail Bar",
+    customer_name: "Vy Nguyen",
+    address: "958 W El Camino Real, Sunnyvale, CA 94087",
+    phone: "408-649-1109",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "hùng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 75,
+    salon_name: "Happy Nails Day Spa",
+    customer_name: "ms lisa",
+    address: "2213 & 2217 Defense Highway Crofton, MD 21114",
+    phone: "(240) 688-5176",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "hằng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+   {
+    id: 76,
+    salon_name: "Davie nails & spa",
+    customer_name: "Man Van",
+    address: "4700 S Flamingo Rd Cooper City FL 33330",
+    phone: "954 305 0046",
+    sale_person: "John Thai",
+    assigned_to: "Hien",
+    marketing_person: "hùng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 77,
+    salon_name: "Diva Nails & Spa",
+    customer_name: "Chị Ny",
+    address: "6 Bank St, Nitro, WV 25143, United States",
+    phone: "(815) 582-7322",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "Hằng",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 78,
+    salon_name: "Bamboo House",
+    customer_name: "mr điền",
+    address: "413 N Main St, Bonham, TX 75418",
+    phone: "(815) 582-7322",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hằng- Hiển",
+    category: "Restaurant",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+   {
+    id: 79,
+    salon_name: "Paris House",
+    customer_name: "mr điền",
+    address: "7 E Plaza, Paris, TX 75460",
+    phone: "(469) 545-8805",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hằng- Hiển",
+    category: "Restaurant",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 80,
+    salon_name: "New Boston House",
+    customer_name: "mr điền",
+    address: "129 NE Front St, New Boston, TX 75570, United States",
+    phone: "(469) 545-8805",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hằng- Hiển",
+    category: "Restaurant",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 81,
+    salon_name: "Real Nails & Spa",
+    customer_name: "Khang V Banh",
+    address: "189 N Park Blvd, Lake Orion, MI 48362",
+    phone: "(248) 690-7279",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "Hằng- Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+   {
+    id: 82,
+    salon_name: "Central Nails",
+    customer_name: "Ms Mandy",
+    address: "10216 Curry Ford Rd, Orlando, FL 32825",
+    phone: "(407) 724-3879",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Ngân",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 83,
+    salon_name: "Extra nails",
+    customer_name: "Tuyet Phuong Tsan",
+    address: "3364 Chamblee Tucker Rd B, Chamblee, GA 30341",
+    phone: "(470) 929-9372",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "hằng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+   {
+    id: 84,
+    salon_name: "Eric Nails & Spa",
+    customer_name: "Huong",
+    address: "6330 Florin Rd, Sacramento, CA 95823",
+    phone: "9164791072",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "hùng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+  {
+    id: 85,
+    salon_name: "Kissie Nails & Spa",
+    customer_name: "Khue Nguyen",
+    address: "11318 S orange blossom trl. Orlando Fl 32837",
+    phone: "(407) 779-0151",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "hằng - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+   {
+    id: 86,
+    salon_name: "HV NAIL STUDIO ",
+    customer_name: "anna",
+    address: "10606 E 96th St, Fishers, IN 46037",
+    phone: "(317) 416-8007",
+    sale_person: "Ngân",
+    assigned_to: "Hien",
+    marketing_person: "Loan - Hiển",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
+  },
+   {
+    id: 87,
+    salon_name: "Best City Nails",
+    customer_name: "Wendy",
+    address: "74520 CA-111 Ste B2, Palm Desert, CA 92260",
+    phone: "(317) 416-8007",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "mimi",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "19/05/2026"
   },
 ];
