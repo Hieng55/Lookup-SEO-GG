@@ -154,7 +154,7 @@ function createPodiumCard(person) {
   const delayClass = person.rank === 2 ? 'podium-delay-2' : person.rank === 3 ? 'podium-delay-3' : '';
   const crownClass = person.rank === 1 ? 'crown-animated' : '';
   return `
-    <div class="podium-card podium-animated ${delayClass} rounded-[28px] border ${style.ring} p-5 md:p-6 ${style.height} relative overflow-hidden flex flex-col justify-between">
+    <div class="podium-card podium-animated ${getSaleTrendClass(person.name)} ${delayClass} rounded-[28px] border ${style.ring} p-5 md:p-6 ${style.height} relative overflow-hidden flex flex-col justify-between">
       <div class="absolute -top-10 right-[-20px] w-32 h-32 ${style.aura} blur-3xl rounded-full pointer-events-none"></div>
       <div class="absolute inset-x-6 top-0 h-1 rounded-b-full ${style.cap}"></div>
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.08),transparent_42%)] pointer-events-none"></div>
@@ -172,7 +172,9 @@ function createPodiumCard(person) {
         </div>
       </div>
       <div class="relative">
-        <h3 class="text-xl md:text-2xl font-bold ${style.text} leading-tight">${person.name}</h3>
+        <h3 class="text-xl md:text-2xl font-bold ${style.text} leading-tight ">${person.name} </h3>
+        ${getSaleTrendIcon(person.name)}
+        
         <p class="text-sm mt-2 ${style.subtext}">${person.categories} danh mục • Cập nhật ${person.latestUpdate || 'N/A'}</p>
       </div>
       <div class="relative mt-6">
@@ -183,7 +185,42 @@ function createPodiumCard(person) {
     </div>
   `;
 }
+function getSaleTrendClass(name) {
+  if (name === "Thuy Duyen") return "sale-trend-up";
+  if (name === "Ngan") return "sale-trend-up";
+  if (name === "John Thai") return "sale-trend-down";
+  return "";
+}
 
+function getSaleTrendIcon(name) {
+  const trend = getSaleTrendClass(name);
+
+  if (trend === "sale-trend-up") {
+    return `
+      <div class="sale-trend-icon" title="Tăng trưởng">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M10 46 L25 31 L36 38 L54 18"></path>
+          <path d="M43 18 H54 V29"></path>
+         
+        </svg>
+      </div>
+    `;
+  }
+
+  if (trend === "sale-trend-down") {
+    return `
+      <div class="sale-trend-icon" title="Đi xuống">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M10 18 L25 33 L36 26 L54 46"></path>
+          <path d="M43 46 H54 V35"></path>
+         
+        </svg>
+      </div>
+    `;
+  }
+
+  return "";
+}
 function createRankingRow(person, topCount, matchedTerm) {
   const isTop3 = person.rank <= 3;
   const isMatched = matchedTerm && normalizeText(person.name).includes(matchedTerm);
@@ -194,7 +231,7 @@ function createRankingRow(person, topCount, matchedTerm) {
           <div class="w-12 h-12 rounded-2xl ${isTop3 ? 'bg-gradient-to-br from-indigo-400 via-fuchsia-400 to-cyan-300 text-slate-950' : 'bg-white/10 text-white'} flex items-center justify-center font-extrabold text-lg shadow-lg shrink-0">${person.rank}</div>
           <div class="min-w-0">
             <div class="flex items-center gap-2 flex-wrap">
-              <h4 class="text-base md:text-lg font-bold text-white truncate">${person.name}</h4>
+              <h4 class="text-base md:text-lg font-bold text-white truncate">${person.name} </h4>
               ${isMatched ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-[0.2em] bg-cyan-400/15 text-cyan-200 border border-cyan-300/20">đang tìm</span>' : ''}
             </div>
             <p class="text-sm text-slate-400">${person.categories} danh mục • ${person.latestUpdate || 'Chưa có ngày update'}</p>
