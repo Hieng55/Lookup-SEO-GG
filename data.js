@@ -981,7 +981,7 @@ const MOCK_STORES =[
     "customer_name": "Ms Anh",
     "address": "7941 Beach Blvd C, Buena Park, CA 90620",
     "phone": "(714) 710-2168",
-    "sale_person": "Dino Dũ",
+    "sale_person": "Dino",
     "assigned_to": "Hien",
     "marketing_person": "hằng - Hiển",
     "category": "Nail Salon",
