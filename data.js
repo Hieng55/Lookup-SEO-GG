@@ -10,7 +10,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=14vC7V6jA-8zo4NOSQyXteRj2Xbswg3Lq&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1oQngHhcZC60UdjsbHG1Nlhv6F0n9Ouv7&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1BAAJ8z6Aqx1ZZ5MoQaBlDkVjhig787mf&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1e0k9z4wV2DwuXrGGoLFiBBcIQWA552iX&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 5,
@@ -64,7 +64,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=10gbl10lycPVUu4wompiScj2rJ97Wv00D&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 6,
@@ -79,7 +79,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1iUWmnmakHykOge0OjUnHk7ABCBZcE70g&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 7,
@@ -93,7 +93,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "mới tạo google nên không xuất report",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 8,
@@ -107,7 +107,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=18nhYKVnwtbHzcgQ_QCqBixLWF2Wb0f-w&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 9,
@@ -121,7 +121,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1rwk3i8xNW_DnBfVoxcBOHQXpNQV-o9Y5&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 10,
@@ -134,7 +134,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1L8hNo_OMwtUJOLndTHI2ZXbgf9_wFfMk&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 11,
@@ -148,7 +148,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1kfN8zHPpvDn8wB-RXR4Rq5KsrZ4EClGW&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 12,
@@ -161,7 +161,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1nXVEA9neccHeu4euBiUGn3Q1u5oZ5Qoq&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 13,
@@ -175,7 +175,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1rdMv8E6bAqqUHU_aIQIBa0IbC8y1Oabh&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 14,
@@ -189,7 +189,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1Smtm2kHP04ghqspEZLUAL0pk52jI2f1B&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 15,
@@ -203,7 +203,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1LbbXT6eSuemHr37oPllrguSpJq1QMbPw&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 16,
@@ -217,7 +217,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 17,
@@ -231,7 +231,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1ySHEs1s0xznCooPMelm98i1EP8w51JjR&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 18,
@@ -245,7 +245,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1lKoYMC3h9YnFnBH8qG8NcpHBYadg6SwK&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 19,
@@ -259,7 +259,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1EdU6pOxxyru4eO8k91ustHdvz6xAHY-G&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 20,
@@ -273,7 +273,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1b7Dpp4VuvKnZwmuNtpiLg3K_8eU8zt6-&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 21,
@@ -287,7 +287,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1fD5D6dQo4ku3DGrmsuhcWG1NE340YU_f&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 22,
@@ -301,7 +301,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1UeiLhjoSv_AOL1-XUkx5PPhC2iq3rPjv&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 23,
@@ -315,7 +315,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 24,
@@ -329,7 +329,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=18RVGkhcovCY2adAovegaUVhZjQLsFRxD&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 25,
@@ -343,7 +343,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1rnm-vL7prLfPWbvG8c_yGqg75hc7pFoc&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 26,
@@ -357,7 +357,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1X0lVzTW-7YQIG6wqRCc4XilAK3xM5eQj&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 27,
@@ -371,7 +371,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: ``,
     link: "https://drive.usercontent.google.com/u/0/uc?id=1LqtCeajvrT8CmxjfauJcG-AUdvyU7KZj&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 28,
@@ -385,7 +385,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: ``,
     link: "https://drive.usercontent.google.com/u/0/uc?id=1gq7XfId18X3VNWC0ZDLgax57Behxs3bY&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 29,
@@ -399,7 +399,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 30,
@@ -413,7 +413,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 31,
@@ -427,7 +427,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1Zq-0MwWq3SerGgUgC-wXEvGGAO15ZS5W&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 32,
@@ -441,7 +441,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "https://drive.usercontent.google.com/u/0/uc?id=1FydscoyY41LAcNjM_fphPN8RePYh9I5i&export=download",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 33,
@@ -455,7 +455,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 34,
@@ -469,7 +469,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 35,
@@ -483,7 +483,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 36,
@@ -497,7 +497,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 37,
@@ -511,7 +511,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 38,
@@ -525,7 +525,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 39,
@@ -539,7 +539,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 40,
@@ -553,7 +553,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 41,
@@ -567,7 +567,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 42,
@@ -581,7 +581,7 @@ const MOCK_STORES = [
     category: "Restaurant",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 43,
@@ -595,7 +595,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 44,
@@ -609,7 +609,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 45,
@@ -623,7 +623,7 @@ const MOCK_STORES = [
     category: "Tattoo",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
 
   {
@@ -638,7 +638,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 47,
@@ -652,7 +652,7 @@ const MOCK_STORES = [
     category: "Beauty Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 48,
@@ -666,7 +666,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 49,
@@ -680,7 +680,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 50,
@@ -694,7 +694,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 52,
@@ -708,7 +708,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 53,
@@ -722,7 +722,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 54,
@@ -736,7 +736,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 56,
@@ -750,7 +750,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 57,
@@ -764,7 +764,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 58,
@@ -778,7 +778,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 59,
@@ -792,7 +792,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 60,
@@ -806,7 +806,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 61,
@@ -820,7 +820,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 62,
@@ -834,7 +834,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 63,
@@ -848,7 +848,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 64,
@@ -862,7 +862,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 65,
@@ -876,7 +876,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 66,
@@ -890,7 +890,7 @@ const MOCK_STORES = [
     category: "Tatoo Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 67,
@@ -904,7 +904,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 68,
@@ -918,7 +918,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 69,
@@ -932,7 +932,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 70,
@@ -946,7 +946,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 71,
@@ -960,7 +960,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 72,
@@ -974,7 +974,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 73,
@@ -988,7 +988,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 74,
@@ -1002,7 +1002,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 75,
@@ -1016,7 +1016,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
    {
     id: 76,
@@ -1030,7 +1030,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 77,
@@ -1044,7 +1044,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 78,
@@ -1058,7 +1058,7 @@ const MOCK_STORES = [
     category: "Restaurant",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
    {
     id: 79,
@@ -1072,7 +1072,7 @@ const MOCK_STORES = [
     category: "Restaurant",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 80,
@@ -1086,7 +1086,7 @@ const MOCK_STORES = [
     category: "Restaurant",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 81,
@@ -1100,7 +1100,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
    {
     id: 82,
@@ -1114,7 +1114,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 83,
@@ -1128,7 +1128,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
    {
     id: 84,
@@ -1142,7 +1142,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
   {
     id: 85,
@@ -1156,7 +1156,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
    {
     id: 86,
@@ -1170,7 +1170,7 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
    {
     id: 87,
@@ -1184,6 +1184,260 @@ const MOCK_STORES = [
     category: "Nail Salon",
     notes: "",
     link: "",
-    update: "19/05/2026"
+    update: "06/19/2026"
   },
+     {
+    id: 88,
+    salon_name: "Heavenly Beauty Salon",
+    customer_name: "Ms Phượng",
+    address: "1507 23RD ST San Pablo CA 94806",
+    phone: "5107074007",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "mimi",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+     {
+    id: 89,
+    salon_name: "Judy Hair & Nails",
+    customer_name: "Ms Judy",
+    address: "1112 University Ave, Berkeley, CA 94702",
+    phone: "510-666-0755",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "mimi",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+   {
+    id: 90,
+    salon_name: "Pro nails & Spa",
+    customer_name: "Ms Alex",
+    address: "719 N 114th St, Omaha, NE 68154",
+    phone: "402-991-7989",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Ngan",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  [
+  {
+    id: 91,
+    salon_name: "Miss Nails",
+    customer_name: "",
+    address: "1236 Guilford College Rd #109, Jamestown, NC 27282",
+    phone: "",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hung",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 92,
+    salon_name: "Holly Nails & Spa",
+    customer_name: "Chi Chau",
+    address: "2316 Dell Range Blvd b1, Cheyenne, WY 82009",
+    phone: "(307) 214-6686",
+    sale_person: "Ngan",
+    assigned_to: "",
+    marketing_person: "Mi Mi",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 93,
+    salon_name: "Harmony Nails & Head Spa",
+    customer_name: "Ms Michelle",
+    address: "",
+    phone: "",
+    sale_person: "Thuy Duyen",
+    assigned_to: "",
+    marketing_person: "Ngan",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 94,
+    salon_name: "Long Nails and Spa",
+    customer_name: "Long",
+    address: "1600 Shorter Ave NW, Rome, GA 30165",
+    phone: "762-420-6309",
+    sale_person: "Thuy Duyen",
+    assigned_to: "",
+    marketing_person: "Mi Mi",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 95,
+    salon_name: "LILYPAD SPA",
+    customer_name: "Ms Hannah",
+    address: "369 Bay St, San Francisco, CA 94133",
+    phone: "(415) 746-0931",
+    sale_person: "Dino",
+    assigned_to: "",
+    marketing_person: "Ngan",
+    category: "Spa",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 96,
+    salon_name: "SALON 352 NAILS BY CHRISTY",
+    customer_name: "Ms Vivian",
+    address: "2124 Mariner Blvd. Spring Hill, FL 34609",
+    phone: "7274580741",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hang",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 97,
+    salon_name: "Canton Tic Tac Nails",
+    customer_name: "Hai Pham",
+    address: "42587 Ford Rd, Canton Township, MI 48187",
+    phone: "734-934-7947",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hung",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 98,
+    salon_name: "MAD CRAB",
+    customer_name: "An",
+    address: "12490 St Charles Rock Rd, Bridgeton, MO 63044, United States",
+    phone: "(314) 715-1013",
+    sale_person: "Minh Anh",
+    assigned_to: "",
+    marketing_person: "Mi Mi",
+    category: "Restaurant",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 99,
+    salon_name: "Zen's Nails",
+    customer_name: "Ms Thanh",
+    address: "205 Burnside Ave, East Hartford, CT 06108",
+    phone: "",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hung",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 100,
+    salon_name: "Zen’s Nails & Spa",
+    customer_name: "Ms Thanh",
+    address: "312 Hartford Turnpike, Vernon, CT 06066",
+    phone: "(860) 871-9806",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hung",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 101,
+    salon_name: "Glam Nails",
+    customer_name: "",
+    address: "876 W Street Rd, Warminster Township, PA 18974",
+    phone: "",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Ngan",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 102,
+    salon_name: "Red Persimmon Nail",
+    customer_name: "Mr Duy",
+    address: "27939 Seco Canyon Rd, Santa Clarita, CA 91350",
+    phone: "(661) 296-3789",
+    sale_person: "Thuy Duyen",
+    assigned_to: "",
+    marketing_person: "Mi Mi",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 103,
+    salon_name: "Lumina Nails Lounge",
+    customer_name: "Patrick Nguyen Le",
+    address: "5445 20th St #105, Vero Beach, FL 32966",
+    phone: "267-285-3423",
+    sale_person: "Ngan",
+    assigned_to: "Hien",
+    marketing_person: "Ngan",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 104,
+    salon_name: "Noodles N Boba",
+    customer_name: "Phuc Dang",
+    address: "1975 Wells Rd, Orange Park, FL 32073, United States",
+    phone: "(407) 309-1423",
+    sale_person: "John",
+    assigned_to: "",
+    marketing_person: "Hung",
+    category: "Restaurant",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  },
+  {
+    id: 105,
+    salon_name: "Sky Nails",
+    customer_name: "Pham Thi Cuc",
+    address: "1484 N State Rd 7, Lauderhill, FL 33313",
+    phone: "(954)-257-4710",
+    sale_person: "Thuy Duyen",
+    assigned_to: "Hien",
+    marketing_person: "Hang",
+    category: "Nail Salon",
+    notes: "",
+    link: "",
+    update: "06/19/2026"
+  }
+]
 ];
