@@ -10,7 +10,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=14vC7V6jA-8zo4NOSQyXteRj2Xbswg3Lq&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1oQngHhcZC60UdjsbHG1Nlhv6F0n9Ouv7&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1BAAJ8z6Aqx1ZZ5MoQaBlDkVjhig787mf&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 4,
@@ -51,7 +51,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1e0k9z4wV2DwuXrGGoLFiBBcIQWA552iX&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 5,
@@ -64,7 +64,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=10gbl10lycPVUu4wompiScj2rJ97Wv00D&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 6,
@@ -79,7 +79,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1iUWmnmakHykOge0OjUnHk7ABCBZcE70g&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 7,
@@ -93,7 +93,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "mới tạo google nên không xuất report",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 8,
@@ -107,7 +107,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=18nhYKVnwtbHzcgQ_QCqBixLWF2Wb0f-w&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 9,
@@ -121,7 +121,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1rwk3i8xNW_DnBfVoxcBOHQXpNQV-o9Y5&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 10,
@@ -134,7 +134,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1L8hNo_OMwtUJOLndTHI2ZXbgf9_wFfMk&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 11,
@@ -148,7 +148,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1kfN8zHPpvDn8wB-RXR4Rq5KsrZ4EClGW&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 12,
@@ -161,7 +161,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1nXVEA9neccHeu4euBiUGn3Q1u5oZ5Qoq&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 13,
@@ -175,7 +175,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1rdMv8E6bAqqUHU_aIQIBa0IbC8y1Oabh&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 14,
@@ -189,7 +189,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1Smtm2kHP04ghqspEZLUAL0pk52jI2f1B&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 15,
@@ -203,7 +203,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1LbbXT6eSuemHr37oPllrguSpJq1QMbPw&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 16,
@@ -217,7 +217,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 17,
@@ -231,7 +231,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1ySHEs1s0xznCooPMelm98i1EP8w51JjR&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 18,
@@ -245,7 +245,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1lKoYMC3h9YnFnBH8qG8NcpHBYadg6SwK&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 19,
@@ -259,7 +259,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1EdU6pOxxyru4eO8k91ustHdvz6xAHY-G&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 20,
@@ -273,7 +273,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1b7Dpp4VuvKnZwmuNtpiLg3K_8eU8zt6-&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 21,
@@ -287,7 +287,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1fD5D6dQo4ku3DGrmsuhcWG1NE340YU_f&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 22,
@@ -301,7 +301,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1UeiLhjoSv_AOL1-XUkx5PPhC2iq3rPjv&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 23,
@@ -315,7 +315,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 24,
@@ -329,7 +329,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=18RVGkhcovCY2adAovegaUVhZjQLsFRxD&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 25,
@@ -343,7 +343,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1rnm-vL7prLfPWbvG8c_yGqg75hc7pFoc&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 26,
@@ -357,7 +357,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1X0lVzTW-7YQIG6wqRCc4XilAK3xM5eQj&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 27,
@@ -371,7 +371,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1LqtCeajvrT8CmxjfauJcG-AUdvyU7KZj&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 28,
@@ -385,7 +385,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1gq7XfId18X3VNWC0ZDLgax57Behxs3bY&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 29,
@@ -399,7 +399,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 30,
@@ -413,7 +413,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 31,
@@ -427,7 +427,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1Zq-0MwWq3SerGgUgC-wXEvGGAO15ZS5W&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 32,
@@ -441,7 +441,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "https://drive.usercontent.google.com/u/0/uc?id=1FydscoyY41LAcNjM_fphPN8RePYh9I5i&export=download",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 33,
@@ -455,7 +455,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 34,
@@ -469,7 +469,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 35,
@@ -483,7 +483,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 36,
@@ -497,7 +497,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 37,
@@ -511,7 +511,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 38,
@@ -525,7 +525,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 39,
@@ -539,7 +539,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 40,
@@ -553,7 +553,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 41,
@@ -567,7 +567,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 42,
@@ -581,7 +581,7 @@ const MOCK_STORES =[
     "category": "Restaurant",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 43,
@@ -595,7 +595,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 44,
@@ -609,7 +609,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 45,
@@ -623,7 +623,7 @@ const MOCK_STORES =[
     "category": "Tattoo",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 46,
@@ -637,7 +637,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 47,
@@ -651,7 +651,7 @@ const MOCK_STORES =[
     "category": "Beauty Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 48,
@@ -665,7 +665,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 49,
@@ -679,7 +679,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 50,
@@ -693,7 +693,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 51,
@@ -707,7 +707,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 52,
@@ -721,7 +721,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 53,
@@ -735,7 +735,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 54,
@@ -749,7 +749,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 55,
@@ -763,7 +763,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 56,
@@ -777,7 +777,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 57,
@@ -791,7 +791,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 58,
@@ -805,7 +805,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 59,
@@ -819,7 +819,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 60,
@@ -833,7 +833,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 61,
@@ -847,7 +847,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 62,
@@ -861,7 +861,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 63,
@@ -875,7 +875,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 64,
@@ -889,7 +889,7 @@ const MOCK_STORES =[
     "category": "Tatoo Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 65,
@@ -903,7 +903,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 66,
@@ -917,7 +917,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 67,
@@ -931,7 +931,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 68,
@@ -945,7 +945,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 69,
@@ -959,7 +959,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 70,
@@ -973,7 +973,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 71,
@@ -987,7 +987,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 72,
@@ -1001,7 +1001,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 73,
@@ -1015,7 +1015,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 74,
@@ -1029,7 +1029,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 75,
@@ -1043,7 +1043,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 76,
@@ -1057,7 +1057,7 @@ const MOCK_STORES =[
     "category": "Restaurant",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 77,
@@ -1071,7 +1071,7 @@ const MOCK_STORES =[
     "category": "Restaurant",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 78,
@@ -1085,7 +1085,7 @@ const MOCK_STORES =[
     "category": "Restaurant",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 79,
@@ -1099,7 +1099,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 80,
@@ -1113,7 +1113,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 81,
@@ -1127,7 +1127,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 82,
@@ -1141,7 +1141,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 83,
@@ -1155,7 +1155,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 84,
@@ -1169,7 +1169,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 85,
@@ -1183,7 +1183,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 86,
@@ -1197,7 +1197,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 87,
@@ -1211,7 +1211,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 88,
@@ -1225,7 +1225,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 89,
@@ -1239,7 +1239,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 90,
@@ -1253,7 +1253,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 91,
@@ -1267,7 +1267,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 92,
@@ -1281,7 +1281,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 93,
@@ -1295,7 +1295,7 @@ const MOCK_STORES =[
     "category": "Spa",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 94,
@@ -1309,7 +1309,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 95,
@@ -1323,7 +1323,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 96,
@@ -1337,7 +1337,7 @@ const MOCK_STORES =[
     "category": "Restaurant",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 97,
@@ -1351,7 +1351,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 98,
@@ -1365,7 +1365,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 99,
@@ -1379,7 +1379,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 100,
@@ -1393,7 +1393,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 101,
@@ -1407,7 +1407,7 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 102,
@@ -1421,7 +1421,7 @@ const MOCK_STORES =[
     "category": "Restaurant",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
   },
   {
     "id": 103,
@@ -1435,6 +1435,174 @@ const MOCK_STORES =[
     "category": "Nail Salon",
     "notes": "",
     "link": "",
-    "update": "06/19/2026"
+    "update": "07/09/2026"
+  },
+  {
+    "id": 104,
+    "salon_name": "Fancy Nails",
+    "customer_name": "Ms Michelle",
+    "address": "3316 Williams Blvd, Kenner, LA 70065",
+    "phone": "",
+    "sale_person": "Thuy Duyen",
+    "assigned_to": "",
+    "marketing_person": "",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 105,
+    "salon_name": "NAILS BARS",
+    "customer_name": "OANH",
+    "address": "",
+    "phone": "",
+    "sale_person": "Dino",
+    "assigned_to": "Hien",
+    "marketing_person": "Hung",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 106,
+    "salon_name": "Le Nails",
+    "customer_name": "Ms Hương",
+    "address": "1650 Starlite Dr, Owensboro, KY 42301",
+    "phone": "",
+    "sale_person": "Thuy Duyen",
+    "assigned_to": "Ngan",
+    "marketing_person": "",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 107,
+    "salon_name": "Star Nails & Spa",
+    "customer_name": "Ms Kim Anh",
+    "address": "102 Rembert C Dennis Blvd, Moncks Corner, SC 29461",
+    "phone": "(816) 801-9784",
+    "sale_person": "Thuy Duyen",
+    "assigned_to": "Hien",
+    "marketing_person": "Hang",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 108,
+    "salon_name": "NAILS BARS",
+    "customer_name": "OANH",
+    "address": "",
+    "phone": "",
+    "sale_person": "Dino",
+    "assigned_to": "",
+    "marketing_person": "",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 109,
+    "salon_name": "STAR NAILS & SPA",
+    "customer_name": "Luat Thanh Nguyen",
+    "address": "1416 Military Rd, Benton, AR 72015",
+    "phone": "(501) 249-8440 / 501-315-2344",
+    "sale_person": "Ngoc Anh",
+    "assigned_to": "Hien",
+    "marketing_person": "Hang",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 110,
+    "salon_name": "Beauty Wellness",
+    "customer_name": "Ms Hồng",
+    "address": "5549 Hwy 6 N, Houston, TX 77084, United States",
+    "phone": "(713) 269-6129",
+    "sale_person": "John",
+    "assigned_to": "Ngan",
+    "marketing_person": "",
+    "category": "Beauty Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 111,
+    "salon_name": "Nail Fever & Spa",
+    "customer_name": "Mr Alex",
+    "address": "6878 E Sunrise Dr, Tucson, AZ 85750",
+    "phone": "",
+    "sale_person": "Thuy Duyen",
+    "assigned_to": "Mimi",
+    "marketing_person": "",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 112,
+    "salon_name": "VIP Nails LLC",
+    "customer_name": "Ms Jenifer",
+    "address": "6730 Lone Tree Wy #1, Brentwood, CA 94513",
+    "phone": "",
+    "sale_person": "Thuy Duyen",
+    "assigned_to": "Hien",
+    "marketing_person": "Hung",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 113,
+    "salon_name": "M-Sleek nail",
+    "customer_name": "Chị Michelle",
+    "address": "584 S Murphy Ave, Sunnyvale, CA 94086",
+    "phone": "(408) 910-9595",
+    "sale_person": "Ngan",
+    "assigned_to": "Hien",
+    "marketing_person": "Hang",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 114,
+    "salon_name": "DAYS NAILS & SPA BY XM",
+    "customer_name": "Thi Xuan Pham",
+    "address": "5140 Chattahoochee Ind Park, Cumming, GA 30041",
+    "phone": "(404) 960-5418",
+    "sale_person": "Ruby",
+    "assigned_to": "Hang",
+    "marketing_person": "",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 115,
+    "salon_name": "Hair No 1",
+    "customer_name": "Tonu Dương",
+    "address": "975 Manor Blvd, San Leandro, CA 94579",
+    "phone": "Manager: (415) 740-1337 / Chủ: (510) 287-6417",
+    "sale_person": "Ngan",
+    "assigned_to": "Loan",
+    "marketing_person": "",
+    "category": "Hair Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 116,
+    "salon_name": "VIP NAILS LOVE",
+    "customer_name": "THANH KIM NGUYEN",
+    "address": "1964 E OSCEOLA PKWY, KISSIMMEE, FL 347433",
+    "phone": "407-837-0943",
+    "sale_person": "",
+    "assigned_to": "",
+    "marketing_person": "",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
+  },
+  {
+    "id": 117,
+    "salon_name": "V.v. Nails and Spa",
+    "customer_name": "Tung Le",
+    "address": "4330 Centerplace Dr #613, Greeley, CO 806345",
+    "phone": "239-851-6850",
+    "sale_person": "Thuy Duyen",
+    "assigned_to": "Hang",
+    "marketing_person": "",
+    "category": "Nail Salon",
+    "update": "07/09/2026"
   }
 ]
