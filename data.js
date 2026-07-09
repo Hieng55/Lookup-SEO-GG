@@ -1587,7 +1587,7 @@ const MOCK_STORES =[
     "customer_name": "THANH KIM NGUYEN",
     "address": "1964 E OSCEOLA PKWY, KISSIMMEE, FL 347433",
     "phone": "407-837-0943",
-    "sale_person": "",
+    "sale_person": "Thuy Duyen",
     "assigned_to": "",
     "marketing_person": "",
     "category": "Nail Salon",
