@@ -1,290 +1,454 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="View the sales leaderboard, compare sales team performance, and access store details by salesperson.">
-  <meta name="keywords"
-    content="Sales Leaderboard, Sale Ranking, Sales Team Performance, TD Transactions">
+  <meta name="description" content="Bảng xếp hạng sale, thống kê renew và tra cứu dữ liệu tiệm của TD Transactions.">
+  <meta name="keywords" content="Sales Leaderboard, Renew Statistics, Sales Team Performance, TD Transactions">
   <meta name="author" content="TD Transactions LLC">
   <meta property="og:title" content="TD Transactions – Bảng Xếp Hạng Sale">
-  <meta property="og:description"
-    content="View the sales leaderboard, compare sales team performance, and access store details by salesperson.">
+  <meta property="og:description" content="Theo dõi hiệu suất sale, thống kê renew và lịch sử cập nhật tiệm.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tdtransactions.com">
   <meta property="og:image" content="https://tdtransactionsllc.com/wp-content/uploads/2026/01/PC-SYSTEM-4.png">
-  <title>
-    TD TRANSACTIONS - BẢNG XẾP HẠNG SALE
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
+  <title>TD Transactions - Bảng Xếp Hạng Sale</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
   <style>
+    :root {
+      color-scheme: dark;
+      --panel: rgba(15, 23, 42, 0.66);
+      --panel-strong: rgba(15, 23, 42, 0.9);
+      --border: rgba(255, 255, 255, 0.1);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      background: linear-gradient(135deg,
-          #0f172a 0%, #1e1b4b 50%, #312e81 100%);
       min-height: 100vh;
       color: white;
-    }
-.sale-trend-icon {
-  position: absolute;
-  right: 26px;
-  top: 8px;
-  width: 54px;
-  height: 54px;
-  opacity: 0.95;
-  z-index: 20;
-  filter: drop-shadow(0 0 14px currentColor);
-}
-
-.sale-trend-up .sale-trend-icon {
-  color: #22c55e;
-}
-
-.sale-trend-down .sale-trend-icon {
-  color: #ef4444;
-}
-
-.sale-trend-icon svg {
-  margin-left:10px;
-  width: 100%;
-  height: 100%;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-   .sale-trend-icon {
-  position: absolute;
-  right: 26px;
-  top: 8px;
-  width: 54px;
-  height: 54px;
-  opacity: 0.95;
-  z-index: 20;
-  filter: drop-shadow(0 0 14px currentColor);
-}
-
-.sale-trend-up .sale-trend-icon {
-  color: #22c55e;
-}
-
-.sale-trend-down .sale-trend-icon {
-  color: #ef4444;
-}
-
-.sale-trend-icon svg {
-  width: 100%;
-  height: 100%;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-
-      to {
-        opacity:
-          1;
-      }
+      background:
+        radial-gradient(circle at 12% 8%, rgba(56, 189, 248, 0.12), transparent 28%),
+        radial-gradient(circle at 85% 12%, rgba(168, 85, 247, 0.15), transparent 30%),
+        radial-gradient(circle at 50% 90%, rgba(79, 70, 229, 0.18), transparent 38%),
+        linear-gradient(135deg, #07101f 0%, #111638 48%, #21184b 100%);
+      background-attachment: fixed;
     }
 
-    @keyframes slideUp {
-      from {
-        transform: translateY(20px);
-        opacity:
-          0;
-      }
+    body.modal-open { overflow: hidden; }
 
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
+    button, input { font: inherit; }
+
+    .glass {
+      background: linear-gradient(145deg, rgba(15, 23, 42, 0.78), rgba(30, 27, 75, 0.5));
+      border: 1px solid var(--border);
+      box-shadow: 0 24px 80px rgba(2, 6, 23, 0.28);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
     }
 
-    .animate-fade-in {
-      animation: fadeIn 0.3s ease-out;
+    .glass-card {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.72), rgba(30, 27, 75, 0.5));
+      border: 1px solid var(--border);
+      box-shadow: 0 18px 55px rgba(2, 6, 23, 0.2);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      transition: transform .28s ease, border-color .28s ease, box-shadow .28s ease;
     }
 
-    .animate-slide-up {
-      animation: slideUp 0.4s ease-out;
+    .glass-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(115deg, transparent 25%, rgba(255, 255, 255, .045), transparent 70%);
+      transform: translateX(-100%);
+      transition: transform .7s ease;
+    }
+
+    .glass-card:hover::before { transform: translateX(100%); }
+    .glass-card:hover { transform: translateY(-6px); border-color: rgba(103, 232, 249, .28); }
+    .glass-card:focus-visible { outline: 2px solid #67e8f9; outline-offset: 4px; }
+
+    .modal-backdrop {
+      background: rgba(2, 6, 23, 0.78);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .metric-card { transition: transform .25s ease, background-color .25s ease; }
+    .metric-card:hover { transform: translateY(-3px); background: rgba(255, 255, 255, .075); }
+
+    .renew-tab,
+    .renew-pill,
+    .latest-tab,
+    .standard-tab {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      line-height: 1;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .renew-tab {
+      padding: .42rem .62rem;
+      color: #a7f3d0;
+      border: 1px solid rgba(110, 231, 183, .25);
+      background: linear-gradient(135deg, rgba(16, 185, 129, .2), rgba(6, 182, 212, .1));
+      box-shadow: inset 0 0 18px rgba(16, 185, 129, .07), 0 0 24px rgba(16, 185, 129, .08);
+    }
+
+    .renew-tab strong {
+      min-width: 18px;
+      height: 18px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      color: #052e2b;
+      background: #6ee7b7;
+      letter-spacing: 0;
+    }
+
+    .renew-pill {
+      padding: .35rem .55rem;
+      color: #6ee7b7;
+      border: 1px solid rgba(110, 231, 183, .18);
+      background: rgba(16, 185, 129, .1);
+    }
+
+    .latest-tab {
+      padding: .38rem .58rem;
+      color: #bae6fd;
+      border: 1px solid rgba(56, 189, 248, .2);
+      background: rgba(14, 165, 233, .1);
+    }
+
+    .standard-tab {
+      padding: .42rem .62rem;
+      color: #cbd5e1;
+      border: 1px solid rgba(255, 255, 255, .1);
+      background: rgba(255, 255, 255, .05);
+    }
+
+    .icon-box {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      border-radius: 10px;
+    }
+
+    .icon-box svg { width: 17px; height: 17px; }
+
+    .field-label,
+    .modal-label {
+      display: block;
+      margin-bottom: 3px;
+      color: #64748b;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .modal-label { color: #818cf8; letter-spacing: .16em; }
+
+    .notification-panel {
+      width: min(430px, calc(100vw - 2rem));
+      max-height: min(620px, calc(100vh - 7rem));
+    }
+
+    .notification-scroll {
+      max-height: min(475px, calc(100vh - 15rem));
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(129, 140, 248, .45) transparent;
+    }
+
+    .notification-item {
+      display: flex;
+      gap: 12px;
+      padding: 16px 18px;
+      border-bottom: 1px solid rgba(255, 255, 255, .06);
+      transition: background-color .2s ease;
+    }
+
+    .notification-item:hover { background: rgba(255, 255, 255, .04); }
+    .notification-item.is-unread { background: linear-gradient(90deg, rgba(99, 102, 241, .12), transparent); }
+
+    .notification-icon {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      border-radius: 12px;
+      color: #a5b4fc;
+      background: rgba(99, 102, 241, .12);
+      border: 1px solid rgba(129, 140, 248, .14);
+    }
+
+    .notification-icon svg { width: 18px; height: 18px; }
+
+    .unread-label {
+      padding: 3px 7px;
+      border-radius: 999px;
+      color: #bae6fd;
+      background: rgba(14, 165, 233, .12);
+      border: 1px solid rgba(56, 189, 248, .18);
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .notification-dot {
+      position: absolute;
+      top: 7px;
+      right: 7px;
+      width: 9px;
+      height: 9px;
+      border: 2px solid #111638;
+      border-radius: 999px;
+      background: #fb4f6f;
+      box-shadow: 0 0 0 4px rgba(251, 79, 111, .12), 0 0 14px rgba(251, 79, 111, .75);
+      animation: dotPulse 1.8s ease-in-out infinite;
+    }
+
+    .sale-trend-icon {
+      position: absolute;
+      right: 4px;
+      top: -8px;
+      width: 48px;
+      height: 48px;
+      opacity: .92;
+      filter: drop-shadow(0 0 13px currentColor);
+    }
+
+    .sale-trend-up .sale-trend-icon { color: #22c55e; }
+    .sale-trend-down .sale-trend-icon { color: #ef4444; }
+    .sale-trend-icon svg { width: 100%; height: 100%; stroke: currentColor; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes slideUp { from { transform: translateY(18px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    @keyframes dotPulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.78); opacity: .72; } }
+    @keyframes crownFloat { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-3px) rotate(3deg); } }
+
+    .animate-fade-in { animation: fadeIn .3s ease-out; }
+    .animate-slide-up { animation: slideUp .36s ease-out; }
+    .podium-animated { animation: slideUp .5s ease both; }
+    .podium-delay-2 { animation-delay: .08s; }
+    .podium-delay-3 { animation-delay: .16s; }
+    .crown-animated { display: inline-block; animation: crownFloat 2.2s ease-in-out infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
+
+    @media (max-width: 640px) {
+      body { background-attachment: scroll; }
+      .notification-panel { position: fixed; top: 76px; right: 16px; left: 16px; width: auto; }
+      .store-card { padding: 1.15rem; }
     }
   </style>
-  <script type="importmap">
-      {
-        "imports": {
-          "@google/genai": "https://esm.sh/@google/genai@^1.36.0",
-          "react": "https://esm.sh/react@^19.2.3",
-          "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-          "react/": "https://esm.sh/react@^19.2.3/"
-        }
-      }
-    </script>
 </head>
-<!-- <video style="display: none; opacity: 0;" src="./video/5122722_Man_Master_3840x2160.mp4"></video> -->
 
 <body class="overflow-x-hidden">
-  <div class="min-h-screen px-4 py-12 md:px-8 lg:px-16 max-w-7xl mx-auto">
-    <!-- Header -->
-    <header class="text-center mb-16 relative">
-      <div
-        class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-indigo-500/20 blur-[120px] rounded-full -z-10">
-      </div>
-      <h1
-        class="text-4xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-white via-indigo-200 to-indigo-500 bg-clip-text text-transparent">
-        TD TRANSACTIONS
-      </h1>
-      <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
-        Hệ thống bảng xếp hạng sale theo số lượng tiệm phụ trách
-      </p>
-    </header>
-    <!-- Search Section -->
-    <div class="max-w-3xl mx-auto mb-16 space-y-4">
-      <div class="relative group">
-        <div
-          class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-25 group-focus-within:opacity-50 transition duration-1000">
+  <main class="min-h-screen px-4 py-8 md:px-8 md:py-12 lg:px-12 max-w-[1440px] mx-auto">
+    <header class="mb-10 md:mb-14 relative">
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-indigo-500/20 blur-[130px] rounded-full -z-10"></div>
+
+      <div class="flex items-start justify-between gap-4">
+        <div class="w-12 md:w-14" aria-hidden="true"></div>
+        <div class="text-center flex-1">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] uppercase tracking-[0.24em] text-indigo-200 mb-4">
+            Sales Intelligence Dashboard
+          </div>
+          <h1 class="text-4xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-white via-indigo-100 to-cyan-300 bg-clip-text text-transparent">
+            TD TRANSACTIONS
+          </h1>
+          <p class="text-slate-400 text-base md:text-xl max-w-2xl mx-auto">
+            Bảng xếp hạng sale, thống kê renew và lịch sử cập nhật dữ liệu tiệm
+          </p>
         </div>
-        <div
-          class="relative flex items-center bg-slate-900/50 backdrop-blur-xl border border-white/10 rounded-2xl p-1 shadow-2xl">
-          <div class="pl-5 text-slate-400">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+
+        <div class="relative z-50">
+          <button id="notificationBell" type="button" aria-label="Mở thông báo cập nhật" aria-expanded="false" class="relative w-12 h-12 md:w-14 md:h-14 grid place-items-center rounded-2xl border border-white/10 bg-white/[0.06] text-slate-200 shadow-xl backdrop-blur-xl transition-all hover:-translate-y-0.5 hover:border-indigo-300/30 hover:bg-indigo-400/10 focus:outline-none focus:ring-2 focus:ring-indigo-400/60">
+            <svg class="w-5 h-5 md:w-6 md:h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M15 17h5l-1.4-1.4A2 2 0 0118 14.2V11a6 6 0 10-12 0v3.2a2 2 0 01-.6 1.4L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+            </svg>
+            <span id="notificationDot" class="notification-dot hidden" aria-hidden="true"></span>
+          </button>
+
+          <section id="notificationPanel" class="notification-panel glass absolute right-0 top-[calc(100%+12px)] hidden overflow-hidden rounded-3xl shadow-2xl" aria-label="Danh sách thông báo">
+            <div class="flex items-start justify-between gap-4 border-b border-white/10 p-5">
+              <div>
+                <p class="text-[10px] uppercase tracking-[0.22em] text-indigo-300">Data updates</p>
+                <h2 class="mt-1 text-lg font-bold text-white">Thông báo cập nhật</h2>
+                <p id="latestUpdateLabel" class="mt-1 text-xs text-slate-500">Đang kiểm tra dữ liệu...</p>
+              </div>
+              <span id="notificationCount" class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-semibold text-slate-300">0 mới</span>
+            </div>
+            <div id="notificationList" class="notification-scroll"></div>
+            <div class="border-t border-white/10 px-5 py-3 text-center text-[11px] leading-5 text-slate-500">
+              Khi mở chuông, các thông báo hiện tại được đánh dấu đã đọc trên thiết bị này.
+            </div>
+          </section>
+        </div>
+      </div>
+    </header>
+
+    <section class="max-w-4xl mx-auto mb-12 md:mb-16 space-y-4" aria-label="Tìm kiếm dữ liệu tiệm">
+      <div class="relative group">
+        <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-cyan-400 rounded-[22px] blur opacity-20 group-focus-within:opacity-45 transition duration-700"></div>
+        <div class="relative flex items-center bg-slate-950/55 backdrop-blur-xl border border-white/10 rounded-[20px] p-1.5 shadow-2xl">
+          <div class="pl-4 md:pl-5 text-slate-400">
+            <svg class="h-5 w-5 md:h-6 md:w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
             </svg>
           </div>
-          <input id="searchInput" type="text" placeholder="Nhập tên sale để xem số lượng tiệm..."
-            class="w-full bg-transparent border-none focus:ring-0 text-white placeholder-slate-500 py-4 px-4 text-lg outline-none" />
-          <button id="aiGlobalBtn"
-            class="hidden md:flex items-center w-[140px] h-16 gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 px-6 rounded-xl transition-all shadow-lg mr-1">
-          Tìm Kiếm
+          <input id="searchInput" type="search" autocomplete="off" placeholder="Tìm tên tiệm, sale, SĐT, địa chỉ, renew hoặc chưa gắn sale..." class="w-full min-w-0 bg-transparent border-none focus:ring-0 text-white placeholder-slate-500 py-3.5 md:py-4 px-3 md:px-4 text-sm md:text-base outline-none">
+          <button id="searchClearBtn" type="button" aria-label="Xóa nội dung tìm kiếm" class="hidden shrink-0 w-10 h-10 place-items-center rounded-xl text-slate-500 hover:bg-white/5 hover:text-white md:grid">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+          <button id="aiGlobalBtn" type="button" class="hidden sm:flex shrink-0 items-center justify-center h-12 md:h-14 gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-5 md:px-7 rounded-2xl transition-all shadow-lg">
+            Tìm kiếm
           </button>
         </div>
       </div>
-      <p class="text-center text-xs text-slate-500">
-        Nhập tên sale để xem danh sách tiệm phụ trách và thứ hạng trong bảng xếp hạng sale.
-      </p>
-    </div>
-    <!-- AI Global Insight Container -->
+      
+    </section>
+
+    <section id="renewSection" class="mb-12">
+      <div class="glass rounded-[30px] p-6 md:p-8 overflow-hidden relative">
+        <div class="absolute -top-20 -right-14 w-72 h-72 rounded-full bg-emerald-400/10 blur-[100px] pointer-events-none"></div>
+        <div class="relative">
+          <div class="flex flex-col xl:flex-row xl:items-end xl:justify-between gap-5 mb-6">
+            <div>
+              <div class="inline-flex items-center gap-2 rounded-full border border-emerald-300/15 bg-emerald-400/[0.07] px-3 py-1 text-[10px] uppercase tracking-[0.22em] text-emerald-200 mb-3">
+                Renewal Analytics
+              </div>
+              <h2 class="text-2xl md:text-3xl font-bold text-white">Thống kê Renew</h2>
+              <p class="mt-2 max-w-2xl text-sm md:text-base text-slate-400">Hệ thống đọc toàn bộ data.js, chuẩn hóa tên và địa chỉ. Chỉ các bản ghi trùng cả tên tiệm lẫn địa chỉ mới được tính là renew.</p>
+            </div>
+            <div class="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 xl:text-right">
+              <p class="text-[10px] uppercase tracking-[0.18em] text-slate-500">Renew gần nhất</p>
+              <p id="latestRenewText" class="mt-1 text-sm font-semibold text-emerald-200">Đang xử lý...</p>
+            </div>
+          </div>
+
+          <div id="renewStats" class="grid grid-cols-2 xl:grid-cols-4 gap-3 mb-6"></div>
+          <div id="renewList" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leaderboardSection" class="mb-12 hidden">
+      <div class="glass rounded-[30px] p-6 md:p-8 overflow-hidden relative">
+        <div class="absolute -top-12 right-0 w-56 h-56 bg-fuchsia-500/15 blur-[110px] rounded-full pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-48 h-48 bg-cyan-400/10 blur-[90px] rounded-full pointer-events-none"></div>
+
+        <div class="relative flex flex-col gap-5">
+          <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-[0.24em] text-indigo-200 mb-3">Performance Ranking</div>
+              <h2 class="text-2xl md:text-3xl font-bold text-white">Bảng xếp hạng Sale</h2>
+              <p id="leaderboardSubtitle" class="text-slate-400 mt-2 text-sm md:text-base">So sánh hiệu suất theo số lượng tiệm đang quản lý.</p>
+            </div>
+            <div id="leaderboardStats" class="grid grid-cols-2 md:grid-cols-3 gap-3 min-w-full lg:min-w-[430px]"></div>
+          </div>
+
+          <div id="podiumGrid" class="grid grid-cols-1 md:grid-cols-3 gap-4 items-end"></div>
+          <div id="rankingList" class="grid grid-cols-1 xl:grid-cols-2 gap-4"></div>
+        </div>
+      </div>
+    </section>
+
     <div id="aiInsightContainer" class="max-w-3xl mx-auto mb-12 hidden animate-fade-in">
       <div class="glass rounded-2xl p-6 border-l-4 border-l-indigo-500 shadow-xl">
         <div class="flex justify-between items-center mb-4">
-          <h2 class="text-lg font-bold flex items-center gap-2 text-indigo-300">
-            Trợ lý AI Smart Insights
-          </h2>
-          <button id="closeAiInsight" class="text-slate-500 hover:text-white">
-            &times;
-          </button>
+          <h2 class="text-lg font-bold text-indigo-300">Trợ lý AI Smart Insights</h2>
+          <button id="closeAiInsight" class="text-slate-500 hover:text-white" aria-label="Đóng">&times;</button>
         </div>
-        <div id="aiInsightText" class="text-slate-300 text-sm leading-relaxed">
-        </div>
+        <div id="aiInsightText" class="text-slate-300 text-sm leading-relaxed"></div>
       </div>
     </div>
-    <!-- Main Content Area -->
-    <div id="resultsTitle" class="mb-10 hidden items-center justify-between">
-      <h2 class="text-2xl font-semibold text-white">
-        Kết quả xếp hạng sale
-      </h2>
-    </div>
-    <div id="storeGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-    </div>
-    <!-- Welcome Placeholder -->
-    <div id="welcomePlaceholder" class="text-center py-32 opacity-50">
-      <div class="inline-block p-6 rounded-3xl bg-indigo-500/5 border border-indigo-500/10 mb-6">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-indigo-400/50 mx-auto" fill="none"
-          viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-            d="M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
+
+    <section aria-live="polite">
+      <div id="resultsTitle" class="mb-6 hidden items-end justify-between gap-4 border-b border-white/10 pb-4">
+        <div>
+          <p class="text-[10px] uppercase tracking-[0.2em] text-indigo-300">Search results</p>
+          <h2 class="mt-1 text-xl md:text-2xl font-semibold text-white">Kết quả tìm kiếm</h2>
+        </div>
+        <span id="resultsCount" class="shrink-0 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-400">0 kết quả</span>
       </div>
-      <h2 class="text-2xl font-bold text-slate-300 mb-2">
-        Sẵn sàng xem bảng xếp hạng sale
-      </h2>
-      <p class="text-slate-500 max-w-md mx-auto">
-        Nhập tên sale để xem thứ hạng, hoặc nhập số phone/tên tiệm để tra cứu nhanh.
-      </p>
+      <div id="storeGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-6"></div>
+    </section>
+
+    <div id="welcomePlaceholder" class="hidden text-center py-20 opacity-60">
+      <h2 class="text-2xl font-bold text-slate-300 mb-2">Sẵn sàng tra cứu dữ liệu</h2>
+      <p class="text-slate-500 max-w-md mx-auto">Nhập tên tiệm, sale, số điện thoại, renew hoặc “chưa gắn sale”.</p>
     </div>
-    <!-- Empty Placeholder -->
-    <div id="emptyPlaceholder"
-      class="text-center py-24 glass rounded-3xl border-dashed border-2 border-white/10 hidden">
-      <h3 class="text-2xl font-bold text-slate-400">
-        Không tìm thấy dữ liệu sale phù hợp
-      </h3>
+
+    <div id="emptyPlaceholder" class="text-center py-20 glass rounded-3xl border-dashed border-2 border-white/10 hidden">
+      <div class="mx-auto mb-4 w-14 h-14 grid place-items-center rounded-2xl bg-white/5 text-slate-500">
+        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M9.2 9.2a4 4 0 015.6 5.6M3 3l18 18M10.6 5.1A8 8 0 0120 12a7.96 7.96 0 01-2.3 5.6M6.4 6.4A7.96 7.96 0 004 12a8 8 0 008 8c1.5 0 2.9-.4 4.1-1.1"/></svg>
+      </div>
+      <h3 class="text-xl font-bold text-slate-300">Không tìm thấy dữ liệu</h3>
+      <p id="emptyMessage" class="mt-2 mx-auto max-w-xl text-sm leading-6 text-slate-500"></p>
     </div>
-  </div>
-  <!-- DETAIL MODAL -->
-  <div id="detailModal"
-    class="fixed inset-0 z-[60] hidden items-center justify-center p-4 modal-backdrop animate-fade-in">
-    <div class="relative w-full max-w-2xl glass rounded-3xl shadow-2xl overflow-hidden animate-slide-up">
-      <div class="p-6 border-b border-white/10 flex justify-between items-center bg-white/5">
-        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-          <span class="w-2 h-8 bg-indigo-500 rounded-full">
-          </span>
+  </main>
+
+  <div id="detailModal" class="fixed inset-0 z-[60] hidden items-center justify-center p-4 modal-backdrop animate-fade-in">
+    <div class="relative w-full max-w-2xl max-h-[92vh] overflow-y-auto glass rounded-3xl shadow-2xl animate-slide-up">
+      <div class="sticky top-0 z-10 p-5 md:p-6 border-b border-white/10 flex justify-between items-center bg-slate-950/80 backdrop-blur-xl">
+        <h2 class="text-xl md:text-2xl font-bold text-white flex items-center gap-3">
+          <span class="w-2 h-8 bg-gradient-to-b from-cyan-300 to-indigo-500 rounded-full"></span>
           Chi Tiết Tiệm
         </h2>
-        <button id="closeModal"
-          class="p-2 hover:bg-white/10 rounded-full text-slate-400 hover:text-white transition-all">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-          </svg>
+        <button id="closeModal" class="p-2 hover:bg-white/10 rounded-full text-slate-400 hover:text-white transition-all" aria-label="Đóng chi tiết">
+          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
         </button>
       </div>
-      <div class="p-8 space-y-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="modalContent">
-        </div>
+      <div class="p-5 md:p-8 space-y-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6" id="modalContent"></div>
         <div class="pt-6 border-t border-white/10">
-          <div class="flex items-center justify-between mb-4">
-            <!-- <h3 class="text-lg font-bold text-indigo-300 flex items-center gap-2">Phân Tích Thông Minh</h3> -->
-            <!-- <button id="runAiDetailBtn" class="text-xs bg-indigo-500/10 hover:bg-indigo-500/20
-              text-indigo-400 border border-indigo-500/30 px-3 py-1.5 rounded-lg transition-all">
-              Bắt đầu phân tích
-              </button> -->
-          </div>
-          <div id="aiDetailBox" class="min-h-[100px] bg-slate-900/50 rounded-2xl
-            p-4 border border-white/5 relative flex items-center justify-center">
+          <div id="aiDetailBox" class="min-h-[90px] bg-slate-950/45 rounded-2xl p-4 border border-white/5 flex items-center justify-center">
             <p id="aiDetailText" class="text-slate-600 text-center text-sm italic"></p>
           </div>
         </div>
       </div>
-      <div class="p-6 bg-white/5 flex gap-4">
-        <button id="downloadPdfBtn"
-          class="flex-1 flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded-xl transition-all">
-          Tải Báo Cáo PDF
-        </button>
-        <button id="closeModalBtn"
-          class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-xl transition-all">
-          Đóng
-        </button>
+      <div class="p-5 md:p-6 bg-white/[0.04] flex flex-col sm:flex-row gap-3">
+        <button id="downloadPdfBtn" class="flex-1 flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded-xl transition-all">Tải Báo Cáo PDF</button>
+        <button id="closeModalBtn" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-xl transition-all">Đóng</button>
       </div>
     </div>
   </div>
-  <!-- GLOBAL LOADING -->
-  <div id="globalLoading"
-    class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-[100] hidden flex flex-col items-center justify-center">
-    <div class="relative w-20 h-20 mb-6">
-      <div class="absolute inset-0 border-4 border-indigo-500/20 rounded-full">
-      </div>
-      <div class="absolute inset-0 border-4 border-t-indigo-500 rounded-full animate-spin">
-      </div>
-    </div>
-    <p class="text-indigo-300 font-medium animate-pulse">
-      AI đang xử lý dữ liệu...
-    </p>
-  </div>
-  <script src="data.js"></script>
-  <script type="module" src="index.js">
-  </script>
-</body>
 
+  <div id="globalLoading" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-[100] hidden flex-col items-center justify-center">
+    <div class="relative w-20 h-20 mb-6">
+      <div class="absolute inset-0 border-4 border-indigo-500/20 rounded-full"></div>
+      <div class="absolute inset-0 border-4 border-t-indigo-500 rounded-full animate-spin"></div>
+    </div>
+    <p class="text-indigo-300 font-medium animate-pulse">Đang xử lý dữ liệu...</p>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+</body>
 </html>
